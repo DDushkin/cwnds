@@ -96,6 +96,20 @@
         var inst = $(this).remodal();
         inst.destroy();
       });
+      $(document).on('opened', '.remodal', function (e) {
+        $(".owl-test").owlCarousel(
+          {
+            singleItem: true,
+            items: 1,
+            addClassActive: true,
+            autoplay: true,
+            navigation: false,
+            navigationText: false,
+            paginationNumbers: false,
+            slideSpeed: 1000
+          }
+        );
+      });
     </script>
   </body>
 </html>
