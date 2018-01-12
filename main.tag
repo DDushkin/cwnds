@@ -1,5 +1,4 @@
 <main>
-
   <div id="main" class="container-fluid">
     <div class="row">
       <div class="cls_border clb1"></div>
@@ -17,7 +16,7 @@
                   <h1>Cross Winds <span class="d-block" >Виїздний</span></h1>
                   <p><span class="d-block">21.07.2017</span><span class="d-block">21.07.1997</span></p>
                   <p class="age"><span class="d-block">15 - 20 років</span></p>
-                  <a onclick="riot.mount('away'); var inst = $('[data-remodal-id=away]').remodal(); inst.open();" >View more</a>
+                  <a data-name="away" onclick="return opener(this);">View more</a>
                 </figcaption>
               </figure>
             </div>
@@ -29,7 +28,7 @@
                   <h1>Cross Winds <span class="d-block">Денний</span></h1>
                   <p><span class="d-block">21.07.2017</span><span class="d-block">21.07.1997</span></p>
                   <p class="age"><span class="d-block">15 - 20 років</span></p>
-                  <a onclick="riot.mount('day'); var inst = $('[data-remodal-id=day]').remodal(); inst.open();">View more</a>
+                  <a data-name="day"  onclick="return opener(this);">View more</a>
                 </figcaption>
               </figure>
             </div>
@@ -41,7 +40,7 @@
                   <h1>Cross Winds <span class="d-block">Зимовий</span></h1>
                   <p><span class="d-block">21.07.2017</span><span class="d-block">21.07.1997</span></p>
                   <p class="age"><span class="d-block">15 - 20 років</span></p>
-                  <a onclick="riot.mount('winter'); var inst = $('[data-remodal-id=winter]').remodal(); inst.open();">View more</a>
+                  <a data-name="winter" onclick="return opener(this);">View more</a>
                 </figcaption>
               </figure>
             </div>
@@ -53,7 +52,7 @@
                   <h1>Enjoy <span class="d-block">Дитячий</span></h1>
                   <p><span class="d-block">21.07.2017</span><span class="d-block">21.07.1997</span></p>
                   <p class="age"><span class="d-block">7 - 14 років</span></p>
-                  <a onclick="riot.mount('kids'); var inst = $('[data-remodal-id=kids]').remodal(); inst.open();">View more</a>
+                  <a data-name="kids" onclick="return opener(this);">View more</a>
                 </figcaption>
               </figure>
             </div>
@@ -65,7 +64,7 @@
                   <h1>Enjoy <span class="d-block">Дитячий</span></h1>
                   <p><span class="d-block">21.07.2017</span><span class="d-block">21.07.1997</span></p>
                   <p class="age"><span class="d-block">7 - 14 років</span></p>
-                  <a class="md-trigger" data-modal="modal-12" href="#">View more</a>
+                  <a onclick="return opener(this);">View more</a>
                 </figcaption>
               </figure>
             </div>
@@ -82,7 +81,7 @@
                   <h1>Faithful <span class="d-block">Milo</span></h1>
                   <p><span class="d-block">21.07.2017</span><span class="d-block">21.07.1997</span></p>
                   <p class="age"><span class="d-block">16 - 20 років</span></p>
-                  <a class="md-trigger" data-modal="modal-12" href="#">View more</a>
+                  <a onclick="return opener(this);">View more</a>
                 </figcaption>
               </figure>
             </div>
@@ -94,7 +93,7 @@
                   <h1>Faithful <span class="d-block">Milo</span></h1>
                   <p><span class="d-block">21.07.2017</span><span class="d-block">21.07.1997</span></p>
                   <p class="age"><span class="d-block">16 - 20 років</span></p>
-                  <a class="md-trigger" data-modal="modal-12" href="#">View more</a>
+                  <a onclick="return opener(this);">View more</a>
                 </figcaption>
               </figure>
             </div>
@@ -106,7 +105,7 @@
                   <h1>Faithful <span class="d-block">Milo</span></h1>
                   <p><span class="d-block">21.07.2017</span><span class="d-block">21.07.1997</span></p>
                   <p class="age"><span class="d-block">16 - 20 років</span></p>
-                  <a data-toggle="modal" data-target="#exampleModal">View more</a>
+                  <a onclick="return opener(this);">View more</a>
                 </figcaption>
               </figure>
             </div>
@@ -118,7 +117,7 @@
                   <h1>Faithful <span class="d-block">Milo</span></h1>
                   <p><span class="d-block">21.07.2017</span><span class="d-block">21.07.1997</span></p>
                   <p class="age"><span class="d-block">16 - 20 років</span></p>
-                  <a class="md-trigger" data-modal="modal-12" href="#">View more</a>
+                  <a onclick="return opener(this);">View more</a>
                 </figcaption>
               </figure>
             </div>
@@ -130,15 +129,13 @@
                   <h1>Faithful <span class="d-block">Milo</span></h1>
                   <p><span class="d-block">21.07.2017</span><span class="d-block">21.07.1997</span></p>
                   <p class="age"><span class="d-block">16 - 20 років</span></p>
-                  <a class="md-trigger" data-modal="modal-12" href="#">View more</a>
+                  <a onclick="return opener(this);">View more</a>
                 </figcaption>
               </figure>
             </div>
-
           </div>
         </div>
       </div>
     </div>
   </div>
-
 </main>

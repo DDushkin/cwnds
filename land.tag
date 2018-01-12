@@ -1,8 +1,8 @@
 
-<winter>
+<land>
   <link rel="stylesheet" href="css/style2.css">
   <link rel="stylesheet" href="css/overwrite.css">
-  <div class="remodal md-modal" id="winter" data-remodal-id="winter" tabindex="-1">
+  <div class="remodal md-modal" id="land" data-remodal-id="land" tabindex="-1">
     <button data-remodal-action="close" class="remodal-close md-close"></button>
 
     <!-- Start home -->
@@ -13,7 +13,7 @@
             <div class="col-md-10  home-intro">
               <ul class="list-unstyled">
                 <li>
-                  <h3>Winter Camp</h3></li>
+                  <h3>{ opts.title }</h3></li>
                 <!--<li><h3>We are<br /> build brand</h3></li>-->
                 <!--<li><h3>We are<br /> build apps</h3></li>-->
               </ul>
@@ -310,4 +310,5 @@
       </div>
     </footer>
 </div>
-</winter>
+var title = opts.title
+</land>

@@ -11,15 +11,9 @@
     <script src="https://use.fontawesome.com/2aa872c3e5.js"></script>
   </head>
   <body>
-    <away></away>
-    <day></day>
-    <winter></winter>
-    <kids></kids>
+    <land></land>
     <main></main>
-    <script type="riot/tag" src="away.tag"></script>
-    <script type="riot/tag" src="day.tag"></script>
-    <script type="riot/tag" src="winter.tag"></script>
-    <script type="riot/tag" src="kids.tag"></script>
+    <script type="riot/tag" src="land.tag"></script>
     <script type="riot/tag" src="main.tag"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="owlcarousel/owl.carousel.js"></script>
@@ -62,54 +56,9 @@
           c_m.trigger('owl.prev');
         });
       })
+
+
     </script>
-    <script>
-      $( window ).resize(function() {
-        var c_m = $('.owl-carousel');
-        if((window.innerHeight > window.innerWidth) || (window.innerWidth < 993)){
-          $("#main_owl").removeClass("owl-carousel");
-        } else{
-          $("#main_owl").addClass("owl-carousel");
-          c_m.owlCarousel({
-            singleItem: true,
-            items: 1,
-            addClassActive: true,
-            autoplay: false,
-            navigation: false,
-            navigationText: false,
-            paginationNumbers: false,
-            slideSpeed: 1000,
-            afterMove: function(e) {
-              var i = this.currentItem + 1;
-              if (i == 2) {
-                $('.first').removeClass('active');
-                $('.second').addClass('active');
-              } else if (i == 1) {
-                $('.first').addClass('active');
-                $('.second').removeClass('active');
-              }
-            }
-          });
-        }
-      });
-      $(document).on('closed', '.remodal', function (e) {
-        var inst = $(this).remodal();
-        inst.destroy();
-      });
-      $(document).on('opened', '.remodal', function (e) {
-        $(".owl-test").owlCarousel(
-          {
-            singleItem: true,
-            items: 1,
-            addClassActive: true,
-            autoplay: true,
-            navigation: false,
-            navigationText: false,
-            paginationNumbers: false,
-            slideSpeed: 1000
-          }
-        );
-      });
-    </script>
+    <script src="js/main.js"></script>
   </body>
 </html>
