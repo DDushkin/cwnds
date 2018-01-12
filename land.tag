@@ -6,7 +6,7 @@
     <button data-remodal-action="close" class="remodal-close md-close"></button>
 
     <!-- Start home -->
-    <section id="home">
+    <section id="home" style="background-image:url(../img/{ opts.img }.jpg)">
       <div class="home-wrapper">
         <div class="container">
           <div class="row text-center justify-content-md-center">
@@ -310,5 +310,4 @@
       </div>
     </footer>
 </div>
-var title = opts.title
 </land>

@@ -49,13 +49,11 @@ $(document).on('opened', '.remodal', function (e) {
 function opener(el){
   var n = $(el).data("name");
   switch (n) {
-    case 'kids': riot.mount('land', {title: 'Kids camp'});
-    case 'winter': riot.mount('land', {title: 'Winter camp'});
-    case 'away': riot.mount('land', {title: 'Away camp'});
-    case 'day': riot.mount('land', {title: 'Day camp'});
-    break;
+    case 'kids': riot.mount('land', {title: 'Kids camp', img: 'line'}); break;
+    case 'winter': riot.mount('land', {title: 'Winter camp', img: 'line'}); break;
+    case 'away': riot.mount('land', {title: 'Away camp', img: 'line'}); break;
+    case 'day': riot.mount('land', {title: 'Day camp', img: 'line'}); break;
   }
-  /*riot.mount('day', {title: 'Hello World'});*/
   var i = $('[data-remodal-id=land]').remodal();
   i.open();
 }
