@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300,400&subset=cyrillic');
+body{font-family: 'Exo 2', sans-serif;}
+html, body, #main, #main .row, #main .owl-carousel,  #main .owl-wrapper-outer,  #main .owl-wrapper, #main .owl-item, main {height: 100%;}
+#main { background: url(../img/logo.png) center center no-repeat #172332; background-size: 260px 260px;}
+#main_owl .row, main{ width: 100% }
+#main .owl-wrapper-outer{ overflow: hidden;  position: relative;  width: 100%;}
+#main .owl-wrapper { transform: translate3d(0px, 0px, 0px); transition: all 1000ms ease;}
+#main .owl-item{ animation-duration: 1.5s !important; position: relative;   z-index: 900;}
+#main .owl-item.active {  position: relative;   z-index: 1000;}
+#wrap {border: 5px solid #2d3d51; width: calc(100% - 100px); width: -webkit-calc(100% - 100px);  width: -moz-calc(100% - 100px);  width: -o-calc(100% - 100px);  width: -ms-calc(100% - 100px); height: calc(100% - 100px);  left: 50px;  top: 50px;  padding: 0;  margin: 0;  position: relative;}
+
+.img1 {background: url(../img/1.jpg) center no-repeat; background-size: cover; width: 100%;    height: 100%;}
+.img2 {background: url(../img/4.jpg) center no-repeat; background-size: cover; width: 100%;    height: 100%;}
+.img3 {background: url(../img/3.jpg) center no-repeat; background-size: cover; width: 100%;    height: 100%;}
+.img4 {background: url(../img/4.jpg) center no-repeat; background-size: cover; width: 100%;    height: 100%;}
+.img5 {background: url(../img/5.jpg) center no-repeat;  background-size: cover; width: 100%;    height: 100%;}
+
+figcaption h1 {
+    font-size: 5vh;
+}
+.blocks figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	background: #3085a3;
+	text-align: right;
+	cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+
+
+.blocks figure .img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+.blocks figure figcaption {
+	padding: 1em 0em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size:3vh;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.wide figure figcaption {
+	font-size: 4.6vh;;
+}
+
+.blocks figure figcaption::before,
+.blocks figure figcaption::after {
+	pointer-events: none;
+}
+
+.blocks figure figcaption,
+.blocks figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.blocks figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.blocks figure h1 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.blocks figure h1 span {
+	font-weight: 800;
+}
+
+.blocks figure h1,
+.blocks figure p {
+	margin: 0;
+}
+
+.blocks figure p {
+	letter-spacing: 1px;
+}
+
+/* Individual effects */
+figure.effect-milo {
+	background: #3085a3;
+}
+
+figure.effect-milo .img {
+	max-width: none;
+	width: -webkit-calc(100% + 60px);
+	width: calc(100% + 60px);
+	opacity: 0.8;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-30px,0,0) scale(1.12);
+	transform: translate3d(-30px,0,0) scale(1.12);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure.effect-milo:hover .img {
+	opacity: 0.5;
+	-webkit-transform: translate3d(0,0,0) scale(1);
+	transform: translate3d(0,0,0) scale(1);
+}
+
+figure.effect-milo h1 {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 1em 1.2em;
+}
+
+figure.effect-milo p {
+	padding: 0 10px 0 0;
+	width: 50%;
+	border-right: 1px solid #fff;
+	text-align: right;
+	float: left;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-40px,0,0);
+	transform: translate3d(-40px,0,0);
+}
+figure.effect-milo p.age{
+	float: right;
+  padding: 0 0 0 10px;
+  text-align: left;
+  border-right: none;
+  margin: 0.7em 0;
+}
+
+figure.effect-milo:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,6vh,0);
+	transform: translate3d(0,6vh,0);
+	    font-size: 1.9vw;
+}
+.wide figure.effect-milo:hover p {
+	-webkit-transform: translate3d(0,6vh,0);
+	transform: translate3d(0,6vh,0);
+	    font-size: 2.9vw;
+}
+
+.md-modal {
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+		padding: 0;
+	margin: 0;
+}
+.remodal-wrapper {
+    padding: 0;
+}
+.md-close{cursor: pointer;
+    color: white;
+    height: 60px;
+    width: 60px;
+    font-family: sans-serif;
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+    float: right;
+    left: 25px;
+    position: -webkit-sticky;}
+
+@media (min-width: 993px ) and (orientation:landscape){
+
+.go_next {width: 5%; position: absolute; top: 0; height: 100%; right: -5%; display: none; cursor: pointer;}
+.first.active .go_next { display: block;}
+
+.go_prev {width: 5%; position: absolute; top: 0; height: 100%; left: -5%; display: none;  cursor: pointer;}
+.second.active .go_prev { display: block;}
+
+.cls_border { position: absolute;   cursor: pointer;}
+.cls_border.clb1 {left: 0; top: 0px; width: 100%; height: 50px;}
+.cls_border.clb2 {right: 0; top: 0; width: 50px; height: 100%;}
+.cls_border.clb3 {bottom: 0; left: 0; width: 100%; height: 50px;}
+.cls_border.clb4 {left: 0; top: 0; width: 50px; height: 100%;}
+.blocks {height: 50%;     padding-right:0;   padding-left: 0;}
+
+.first{
+  width: 100%;
+  height: 100%;
+  transition-duration: 1s;
+  transform: translate3d(5%, 0, 0);
+  -webkit-transform: translate3d(5%, 0, 0);
+  -moz-transform: translate3d(5%, 0, 0);
+  -ms-transform: translate3d(5%, 0, 0);
+  -o-transform: translate3d(5%, 0, 0);
+  }
+
+.first.active{
+  width: 95%!important;
+height: 100%;
+transform: translate3d(0%, 0, 0);
+-webkit-transform: translate3d(0%, 0, 0);
+-moz-transform: translate3d(0%, 0, 0);
+-ms-transform: translate3d(0%, 0, 0);
+-o-transform: translate3d(0%, 0, 0);
+  }
+
+.second {
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+    transform: translate3d(-5%, 0, 0);
+    -webkit-transform: translate3d(-5%, 0, 0);
+    -moz-transform: translate3d(-5%, 0, 0);
+    -ms-transform: translate3d(-5%, 0, 0);
+    -o-transform: translate3d(-5%, 0, 0);
+  }
+
+ .second.active{
+  width: 95%;
+  height: 100%;
+  transform: translate3d(5%, 0, 0);
+  -webkit-transform: translate3d(5%, 0, 0);
+  -moz-transform: translate3d(5%, 0, 0);
+  -ms-transform: translate3d(5%, 0, 0);
+  -o-transform: translate3d(5%, 0, 0);
+  }
+
+}
+@media (max-width: 1025px){
+	.blocks figure .img{
+		    height: 400px;
+	}
+	figcaption h1 {
+    font-size: 4vh;
+}
+figure.effect-milo:hover p, .wide figure.effect-milo:hover p {
+    -webkit-transform: translate3d(0,3vh,0);
+    transform: translate3d(0,3vh,0);
+    font-size: 5vw;
+}
+	#main_owl .row, main {
+    width:auto;
+}
+	#wrap{
+		top:0;
+	}
+	html, body, #main, #main .row, #main .owl-carousel, #main .owl-wrapper-outer, #main .owl-wrapper, #main .owl-item, main {
+		height: auto;
+}
+}
+@media (max-width: 768px) and (orientation:landscape){
+	.blocks figure .img{
+				height: 100vh;
+	}
+	figcaption h1 {
+    font-size: 10vh;
+}
+figure.effect-milo:hover p, .wide figure.effect-milo:hover p {
+    -webkit-transform: translate3d(0,3vh,0);
+    transform: translate3d(0,10vw,0);
+    font-size: 5vw;
+}
+}
+@media (max-width: 576px){
+	#wrap{
+	width: calc(100% - 10px);
+	left: 5px;}
+	.blocks figure .img {
+        height: 30vh;
+}
+}
+@media (max-width: 576px) and (orientation:landscape){
+	.blocks figure .img {
+				height: 60vh;
+}
+figure.effect-milo:hover p, .wide figure.effect-milo:hover p {
+    -webkit-transform: translate3d(0,3vh,0);
+    transform: translate3d(0,5vw,0);
+    font-size: 4vw;
+}
+figcaption h1 {
+    font-size: 7vh;
+}
+}
