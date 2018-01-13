@@ -20,7 +20,7 @@
           </div>
           <div class="row text-center justify-content-md-center">
             <div class="col-md-8">
-              <p>crossind borders to new discoveries</p>
+              <h3>crossind borders to new discoveries</h3>
             </div>
           </div>
         </div>
