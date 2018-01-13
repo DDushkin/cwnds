@@ -50,8 +50,8 @@ function opener(el){
   var n = $(el).data("name");
   switch (n) {
     case 'kids': riot.mount('land', {title: 'Kids camp', img: 'line'}); break;
-    case 'winter': riot.mount('land', {title: 'Winter camp', img: 'line'}); break;
-    case 'away': riot.mount('land', {title: 'Away camp', img: 'line'}); break;
+    case 'winter': riot.mount('land', {title: 'Winter camp', img: 'winter'}); break;
+    case 'away': riot.mount('land', {title: 'Away camp', img: 'away'}); break;
     case 'day': riot.mount('land', {title: 'Day camp', img: 'line'}); break;
   }
   var i = $('[data-remodal-id=land]').remodal();

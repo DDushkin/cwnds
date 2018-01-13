@@ -25,7 +25,7 @@
 #home{
 	background-image:url(../img/home-bg.jpg);
 	background-repeat:no-repeat;
-	background-position: top center;
+	background-position: center; 
 	color:#fff;
 	font-size:20px;
 	line-height:30px;

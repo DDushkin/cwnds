@@ -1,4 +1,3 @@
-
 <land>
   <link rel="stylesheet" href="css/style2.css">
   <link rel="stylesheet" href="css/overwrite.css">
@@ -6,7 +5,7 @@
     <button data-remodal-action="close" class="remodal-close md-close"></button>
 
     <!-- Start home -->
-    <section id="home" style="background-image:url(../img/{ opts.img }.jpg)">
+    <section id="home" style="background-image:url(../img/bg-{ opts.img }.jpg)">
       <div class="home-wrapper">
         <div class="container">
           <div class="row text-center justify-content-md-center">
