@@ -14,15 +14,15 @@
           <ul>
             <li>
               <a data-name="main" class="prNav active" onclick="return openerNav(this);">
-                <i class="fa fa-ticket"></i>About</a>
+                <i class="fa fa-ticket"></i>Подписки</a>
             </li>
             <li>
               <a data-name="blog" class="prNav" onclick="return openerNav(this);">
-                <i class="fa fa-pencil"></i>Blog</a>
+                <i class="fa fa-pencil"></i>Новости</a>
             </li>
             <li>
               <a data-name="contact" class="prNav" onclick="return openerNav(this);">
-                <i class="fa fa-map-marker"></i>Contact</a>
+                <i class="fa fa-map-marker"></i>Контакты</a>
             </li>
           </ul>
         </nav>
