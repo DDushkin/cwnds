@@ -57,3 +57,12 @@ function opener(el){
   var i = $('[data-remodal-id=land]').remodal();
   i.open();
 }
+
+function openerNav(el){
+  var n = $(el).data("name");
+  switch (n) {
+    case 'main': $(".mainBlock").hide();  riot.mount('pr-main'); $("#main").show(); $(".prNav").removeClass("active"); $(el).addClass("active"); break;
+    case 'contact': $(".mainBlock").hide();  riot.mount('pr-contact'); $("#contact").show(); $(".prNav").removeClass("active"); $(el).addClass("active"); break;
+    case 'blog': $(".mainBlock").hide();  riot.mount('pr-blog'); $("#blog").show(); $(".prNav").removeClass("active"); $(el).addClass("active"); break;
+  }
+}
