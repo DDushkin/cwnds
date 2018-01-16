@@ -535,7 +535,7 @@ a, input[type="text"], textarea, nav.main-nav ul, .lines:before, .contact-form .
 }
 
 .margLTop {
-  margin-top: 80px !important;
+  margin-top: 80px;
 }
 
 .margBottom {
@@ -547,7 +547,7 @@ a, input[type="text"], textarea, nav.main-nav ul, .lines:before, .contact-form .
 }
 
 .margLBottom {
-  margin-bottom: 80px !important;
+  margin-bottom: 80px;
 }
 
 .margHBottom {

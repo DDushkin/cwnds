@@ -1,4 +1,4 @@
-<pr-contact class="col-md-9 right-content mainBlock" id="contact" >
+<pr-contact class="col-lg-9 right-content mainBlock" id="contact" >
 <!--Contact Tab-->
 <section class="bgWhite ofsInBottom">
 
@@ -85,7 +85,7 @@
 
                 <!--Address info-->
                 <div class="address-info">
-                  <i class="icon-location"></i>
+                  <i class="fa fa-map-marker"></i>
                   <p>The Company Name Inc.1234 Street Road
                     <br>City Name,IN 567 890.</p>
                 </div>
@@ -96,20 +96,20 @@
                   <ul>
                     <li>
                       <div class="ico">
-                        <i class="icon-mail"></i>
+                        <i class="fa fa-envelope"></i>
                       </div>
                       <p>Email : name@gmail.com
                       </p>
                     </li>
                     <li>
                       <div class="ico">
-                        <i class="icon-phone"></i>
+                        <i class="fa fa-phone"></i>
                       </div>
                       <p>Tel : + 123-456-789</p>
                     </li>
                     <li>
                       <div class="ico">
-                        <i class="icon-link"></i>
+                        <i class="fa fa-link"></i>
                       </div>
                       <p>WebSite :
                         <a href="#">www.yoursite.com</a>

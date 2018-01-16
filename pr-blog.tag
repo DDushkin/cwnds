@@ -1,4 +1,4 @@
-<pr-blog class="col-md-9 right-content mainBlock" id="blog" >
+<pr-blog class="col-lg-9 right-content mainBlock" id="blog" >
 <!--Blog Tab-->
 <section class="bgWhite ofsInBottom">
 
@@ -41,7 +41,7 @@
                 <div class="col-md-12">
 
                   <div class="post-media margBSmall">
-                    <img src="img/blog/1.jpg" alt="">
+                    <img src="img/1.jpg" alt="">
                   </div>
 
                   <div class="post-title">
@@ -51,36 +51,13 @@
                     <span class="meta-date">23 Sep</span>
                   </div>
 
-                  <ul class="post-meta">
-                    <li>
-                      <i class="icon-user"></i>
-                      <span>Post by
-                        <a href="#">Benaissa Ghrib</a>
-                      </span>
-                    </li>
-                    <li>
-                      <i class="icon-layout"></i>
-                      <span>Tagged in
-                        <a href="#">Web Design</a>
-                      </span>
-                    </li>
-
-                    <li>
-                      <i class="icon-comment"></i>
-                      <span>Comments
-                        <a href="#">(2)</a>
-                      </span>
-                    </li>
-
-                  </ul>
-
                   <hr>
 
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
                     voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                   </p>
 
-                  <a href="blog_single.html" class="but brd">Read More</a>
+
 
                 </div>
 
@@ -113,28 +90,6 @@
                     <span class="meta-date">23 Sep</span>
                   </div>
 
-                  <ul class="post-meta">
-                    <li>
-                      <i class="icon-user"></i>
-                      <span>Post by
-                        <a href="#">Benaissa Ghrib</a>
-                      </span>
-                    </li>
-                    <li>
-                      <i class="icon-layout"></i>
-                      <span>Tagged in
-                        <a href="#">Web Design</a>
-                      </span>
-                    </li>
-
-                    <li>
-                      <i class="icon-comment"></i>
-                      <span>Comments
-                        <a href="#">(2)</a>
-                      </span>
-                    </li>
-
-                  </ul>
 
                   <hr>
 
@@ -142,7 +97,7 @@
                     voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                   </p>
 
-                  <a href="blog_single.html" class="but brd">Read More</a>
+
 
                 </div>
 
@@ -175,35 +130,14 @@
                     <span class="meta-date">23 Sep</span>
                   </div>
 
-                  <ul class="post-meta">
-                    <li>
-                      <i class="icon-user"></i>
-                      <span>Post by
-                        <a href="#">Benaissa Ghrib</a>
-                      </span>
-                    </li>
-                    <li>
-                      <i class="icon-layout"></i>
-                      <span>Tagged in
-                        <a href="#">Web Design</a>
-                      </span>
-                    </li>
 
-                    <li>
-                      <i class="icon-comment"></i>
-                      <span>Comments
-                        <a href="#">(2)</a>
-                      </span>
-                    </li>
-
-                  </ul>
 
                   <hr>
 
                   <div class="block-quote margTMedium">
-                    <div class="block-img"><img src="img/testimonial/1.jpg" alt=""></div>
+                    <div class="block-img"><img src="img/testimoni/avatar4.jpg" alt=""></div>
                     <div class="block-icon">
-                      <i class="icon-quote"></i>
+                      <i class="fa fa-quote-left"></i>
                     </div>
                     <h3 class="block-profile">Carlose Smith<span>
                         CEO / The Third Inc</span>
@@ -237,10 +171,6 @@
 
           </div>
           <!--End row-->
-
-          <div class="block-all tCenter margTSmall margBSmall">
-            <a class="but  brd" href="blog.html">View all blog posts</a>
-          </div>
 
         </div>
         <!--End blog-->

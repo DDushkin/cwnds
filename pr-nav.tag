@@ -1,4 +1,4 @@
-<pr-nav class="col-md-3 nopr left-content">
+<pr-nav class="col-lg-3 nopr left-content">
 
     <header id="header">
       <div class="main-header">
