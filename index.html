@@ -21,6 +21,38 @@
     <script src="https://use.fontawesome.com/2aa872c3e5.js"></script>
   </head>
   <body>
+    <style>
+  #splash {
+    background: url(../img/logo.png) center center no-repeat #172332; background-size: 260px 260px;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 10;
+    opacity: 1;
+    -webkit-transition: opacity 1.3s cubic-bezier(0.4, 0, 1, 1);
+       -moz-transition: opacity 1.3s cubic-bezier(0.4, 0, 1, 1);
+        -ms-transition: opacity 1.3s cubic-bezier(0.4, 0, 1, 1);
+         -o-transition: opacity 1.3s cubic-bezier(0.4, 0, 1, 1);
+            transition: opacity 1.3s cubic-bezier(0.4, 0, 1, 1);
+  }
+  #splash.animate {
+    opacity:  0;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelector('#splash').addEventListener('transitionend', (event) => {
+      event.target.remove();
+    });
+    requestAnimationFrame(() => {
+      document.querySelector('#splash').classList.add('animate');
+    });
+  });
+</script>
+
+    <div id="splash"></div>
     <land></land>
     <main></main>
     <script type="riot/tag" src="land.tag"></script>

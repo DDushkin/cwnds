@@ -156,20 +156,18 @@
               </div>
 
               <div class="col-md-4">
+
                 <div class="card card-01">
-                  <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1"></iframe>
-                  </div>
+                  <img class="card-img-top" src="img/gallery/card-3.jpeg" alt="Card image cap">
                   <div class="card-body">
                     <span class="badge-box">
                       <i class="fa fa-check"></i>
                     </span>
-                    <h4 class="card-title">News title</h4>
+                    <h4 class="card-title">Card title</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-default text-uppercase">Explore</a>
                   </div>
                 </div>
-
               </div>
 
               <div class="col-md-4">
@@ -209,7 +207,7 @@
               <div class="col-md-4">
 
                 <div class="card card-01">
-                  <img class="card-img-top" src="img/gallery/card-1.jpeg" alt="Card image cap">
+                  <img class="card-img-top" src="img/gallery/card-2.jpeg" alt="Card image cap">
                   <div class="card-body">
                     <span class="badge-box">
                       <i class="fa fa-check"></i>
@@ -222,20 +220,18 @@
               </div>
 
               <div class="col-md-4">
+
                 <div class="card card-01">
-                  <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1"></iframe>
-                  </div>
+                  <img class="card-img-top" src="img/gallery/card-1.jpeg" alt="Card image cap">
                   <div class="card-body">
                     <span class="badge-box">
                       <i class="fa fa-check"></i>
                     </span>
-                    <h4 class="card-title">News title</h4>
+                    <h4 class="card-title">Card title</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-default text-uppercase">Explore</a>
                   </div>
                 </div>
-
               </div>
 
               <div class="col-md-4">
