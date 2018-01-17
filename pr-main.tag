@@ -143,7 +143,7 @@
               <div class="col-md-4">
 
                 <div class="card card-01">
-                  <img class="card-img-top" src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&amp;auto=compress&amp;cs=tinysrgb" alt="Card image cap">
+                  <img class="card-img-top" src="img/gallery/card-1.jpeg" alt="Card image cap">
                   <div class="card-body">
                     <span class="badge-box">
                       <i class="fa fa-check"></i>
@@ -158,7 +158,7 @@
               <div class="col-md-4">
                 <div class="card card-01">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;loop=1&amp;playlist=W0LHTWG-UmQ"></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1"></iframe>
                   </div>
                   <div class="card-body">
                     <span class="badge-box">
@@ -177,13 +177,13 @@
                   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                       <div class="carousel-item active">
-                        <img class="d-block img-fluid" src="https://images.pexels.com/photos/534164/pexels-photo-534164.jpeg?h=350&amp;auto=compress&amp;cs=tinysrgb" alt="First slide">
+                        <img class="d-block img-fluid" src="img/gallery/card-2.jpeg" alt="First slide">
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block img-fluid" src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&amp;auto=compress&amp;cs=tinysrgb" alt="Second slide">
+                        <img class="d-block img-fluid" src="img/gallery/card-3.jpeg" alt="Second slide">
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block img-fluid" src="https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?h=350&amp;auto=compress&amp;cs=tinysrgb" alt="Third slide">
+                        <img class="d-block img-fluid" src="img/gallery/card-1.jpeg" alt="Third slide">
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -209,7 +209,7 @@
               <div class="col-md-4">
 
                 <div class="card card-01">
-                  <img class="card-img-top" src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&amp;auto=compress&amp;cs=tinysrgb" alt="Card image cap">
+                  <img class="card-img-top" src="img/gallery/card-1.jpeg" alt="Card image cap">
                   <div class="card-body">
                     <span class="badge-box">
                       <i class="fa fa-check"></i>
@@ -224,7 +224,7 @@
               <div class="col-md-4">
                 <div class="card card-01">
                   <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;loop=1&amp;playlist=W0LHTWG-UmQ"></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1"></iframe>
                   </div>
                   <div class="card-body">
                     <span class="badge-box">
@@ -243,13 +243,13 @@
                   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" role="listbox">
                       <div class="carousel-item active">
-                        <img class="d-block img-fluid" src="https://images.pexels.com/photos/534164/pexels-photo-534164.jpeg?h=350&amp;auto=compress&amp;cs=tinysrgb" alt="First slide">
+                        <img class="d-block img-fluid" src="img/gallery/card-3.jpeg" alt="First slide">
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block img-fluid" src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&amp;auto=compress&amp;cs=tinysrgb" alt="Second slide">
+                        <img class="d-block img-fluid" src="img/gallery/card-2.jpeg" alt="Second slide">
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block img-fluid" src="https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?h=350&amp;auto=compress&amp;cs=tinysrgb" alt="Third slide">
+                        <img class="d-block img-fluid" src="img/gallery/card-1.jpeg" alt="Third slide">
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
