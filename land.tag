@@ -211,7 +211,7 @@
           <div class="col-12 ">
             <ul class="ticker row owl-test">
               <li>
-                <div class="testimoni col-8 ml-auto mr-auto">
+                <div class="testimoni col-md-8 ml-auto mr-auto">
                   <a href="#" class="testimoni-avatar"><img src="img/testimoni/avatar3.jpg" alt="" /></a>
                   <blockquote>
                     "Cross Winds" - это лагерь, который меняет людей. Когда я приехала в этот лагерь, я почувствовала теплую атмосферу, взаимопонимание и любовь всех вокруг. Я никогда в жизни не видела таких людей, как в лагере: они готовы пожертвовать собой ради того, чтобы
@@ -223,7 +223,7 @@
                 </div>
               </li>
               <li>
-                <div class="testimoni col-8 ml-auto mr-auto">
+                <div class="testimoni col-md-8 ml-auto mr-auto">
                   <a href="#" class="testimoni-avatar"><img src="img/testimoni/avatar4.jpg" alt="" /></a>
                   <blockquote>
                     Впервые открыл для себя Cross Winds в 2014 году как лагерь, в котором я мог практиковать свой разговорный английский с носителями языка. Но посетив лагерь всего один раз, всего 10 летних деньков, он остался со мной навсегда. Этот опыт нельзя передать
@@ -233,7 +233,7 @@
                 </div>
               </li>
               <li>
-                <div class="testimoni col-8 ml-auto mr-auto">
+                <div class="testimoni col-md-8 ml-auto mr-auto">
                   <a href="#" class="testimoni-avatar"><img src="img/testimoni/avatar1.jpg" alt="" /></a>
                   <blockquote>
                     CrossWinds - найкращий варіант для проведення літніх канікул. Тебе очікують багато нових знайомств , спортивні активності , душевні пісні біля вогнища , палаючі зефірки та море незабутніх відчуттів
@@ -243,7 +243,7 @@
                 </div>
               </li>
               <li>
-                <div class="testimoni col-8 ml-auto mr-auto">
+                <div class="testimoni col-md-8 ml-auto mr-auto">
                   <a href="#" class="testimoni-avatar"><img src="img/testimoni/avatar2.jpg" alt="" /></a>
                   <blockquote>
                     Cross Winds, для меня стал частью жизни, там я познакомилась с замечательными людьми! Много развлечений, так же изучение английского языка) Знакомства с обычиями других стран))) Всем всегда рады, это просто замечательное место))</blockquote>

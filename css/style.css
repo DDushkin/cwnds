@@ -240,7 +240,7 @@ transform: translate3d(0%, 0, 0);
 		    height: 400px;
 	}
 	figcaption h1 {
-    font-size: 4vh;
+    font-size: 6vh;
 }
 figure.effect-milo:hover p, .wide figure.effect-milo:hover p {
     -webkit-transform: translate3d(0,3vh,0);
@@ -259,7 +259,7 @@ figure.effect-milo:hover p, .wide figure.effect-milo:hover p {
 }
 @media (max-width: 768px) and (orientation:landscape){
 	.blocks figure .img{
-				height: 100vh;
+				height: 220px;
 	}
 	figcaption h1 {
     font-size: 10vh;
@@ -275,12 +275,21 @@ figure.effect-milo:hover p, .wide figure.effect-milo:hover p {
 	width: calc(100% - 10px);
 	left: 5px;}
 	.blocks figure .img {
-        height: 30vh;
+        height: 210px;
+}
+  .blocks{
+    padding: 0;
+  }
+  .first, .second{
+    margin: 0;
+  }
+  figcaption h1 {
+    font-size: 4.5vh;
 }
 }
 @media (max-width: 576px) and (orientation:landscape){
 	.blocks figure .img {
-				height: 60vh;
+				height: 200px;
 }
 figure.effect-milo:hover p, .wide figure.effect-milo:hover p {
     -webkit-transform: translate3d(0,3vh,0);
@@ -288,6 +297,6 @@ figure.effect-milo:hover p, .wide figure.effect-milo:hover p {
     font-size: 4vw;
 }
 figcaption h1 {
-    font-size: 7vh;
+    font-size: 8vh;
 }
 }
