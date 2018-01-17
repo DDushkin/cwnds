@@ -3,7 +3,7 @@
     <header id="header">
       <div class="main-header">
         <figure class="img-profile">
-          <img src="http://demo.mutationmedia.net/SPLIT/img/profile.jpg" alt="">
+          <img src="//demo.mutationmedia.net/SPLIT/img/profile.jpg" alt="">
           <figcaption class="name-profile">
             <span>Carlose smith
               <sup>®</sup>
