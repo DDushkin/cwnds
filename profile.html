@@ -20,8 +20,6 @@
     <link rel="stylesheet" href="css/mainPr.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <script src="https://use.fontawesome.com/2aa872c3e5.js"></script>
-
-
   </head>
   <body>
     <style>
@@ -33,11 +31,11 @@
     width: 100vw;
     z-index: 10;
     opacity: 1;
-    -webkit-transition: opacity 1.3s cubic-bezier(0.4, 0, 1, 1);
-       -moz-transition: opacity 1.3s cubic-bezier(0.4, 0, 1, 1);
-        -ms-transition: opacity 1.3s cubic-bezier(0.4, 0, 1, 1);
-         -o-transition: opacity 1.3s cubic-bezier(0.4, 0, 1, 1);
-            transition: opacity 1.3s cubic-bezier(0.4, 0, 1, 1);
+    -webkit-transition: opacity 1.8s cubic-bezier(0.4, 0, 1, 1);
+       -moz-transition: opacity 1.8s cubic-bezier(0.4, 0, 1, 1);
+        -ms-transition: opacity 1.8s cubic-bezier(0.4, 0, 1, 1);
+         -o-transition: opacity 1.8s cubic-bezier(0.4, 0, 1, 1);
+            transition: opacity 1.8s cubic-bezier(0.4, 0, 1, 1);
   }
   #splash.animate {
     opacity:  0;
@@ -79,7 +77,24 @@
     <script>
       riot.compile(function() {
         riot.mount('pr-nav, pr-main')
+        route.start(true)
       })
+
+      var r = route.create()
+    r('',        home       )
+    r('blog',   blog      )
+    r('contact',  contact     )
+    r(           home       )
+
+    function home() {
+      $(".mainBlock").hide();  $("#main").show(); $(".prNav").removeClass("active"); $("[data-name=main]").addClass("active");
+    }
+    function blog() {
+      $(".mainBlock").hide();  riot.mount('pr-blog'); $("#blog").show(); $(".prNav").removeClass("active"); $("[data-name=blog]").addClass("active");
+    }
+    function contact() {
+      $(".mainBlock").hide();  riot.mount('pr-contact'); $("#contact").show(); $(".prNav").removeClass("active"); $("[data-name=contact]").addClass("active");
+    }
     </script>
   </body>
 </html>

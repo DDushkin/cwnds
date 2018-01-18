@@ -29,30 +29,20 @@
 
         <!--Map-->
         <div class="block-map">
-
           <!--Row-->
           <div class="row">
-
             <div class="col-md-12">
-
-              <div id="map"></div>
-
+              <div id="map"><iframe src="https://snazzymaps.com/embed/41749" width="100%" height="100%" style="border:none;"></iframe></div>
             </div>
-
           </div>
           <!--End row-->
-
         </div>
         <!--End map-->
-
       </div>
       <!--End block content-->
-
     </div>
     <!--End content-->
-
     <!--Main title-->
-
     <div class="main-title">
       <h1>contact info</h1>
       <div class="divider">
@@ -64,25 +54,17 @@
         </div>
       </div>
     </div>
-
     <!--End main title-->
-
     <!--Content-->
     <div class="content">
-
-      <!--Block content-->
+    <!--Block content-->
       <div class="block-content ">
-
         <!--Info-->
         <div class="block-info">
-
           <!--Row-->
           <div class="row">
-
             <div class="col-md-12">
-
               <div class="info-holder   margTMedium">
-
                 <!--Address info-->
                 <div class="address-info">
                   <i class="fa fa-map-marker"></i>
@@ -90,15 +72,15 @@
                     <br>City Name,IN 567 890.</p>
                 </div>
                 <!--End address info-->
-
                 <!--Contact info-->
                 <div class="contact-info tCenter">
                   <ul>
                     <li>
                       <div class="ico">
-                        <i class="fa fa-envelope"></i>
+                        <i class="fa fa-instagram"></i>
                       </div>
-                      <p>Email : name@gmail.com
+                      <p>Inst:
+                        <a href="https://www.instagram.com/cross_winds_camp/">@cross_winds_camp</a>
                       </p>
                     </li>
                     <li>
@@ -109,42 +91,29 @@
                     </li>
                     <li>
                       <div class="ico">
-                        <i class="fa fa-link"></i>
+                        <i class="fa fa-facebook"></i>
                       </div>
-                      <p>WebSite :
-                        <a href="#">www.yoursite.com</a>
+                      <p>Fb :
+                        <a href="https://www.facebook.com/crosswinds.ukraine/">@crosswinds.ukraine</a>
                       </p>
                     </li>
                   </ul>
                 </div>
                 <!--End contact info-->
-
               </div>
-
             </div>
-
           </div>
           <!--End row-->
-
         </div>
         <!--End info-->
-
       </div>
       <!--End block content-->
-
     </div>
     <!--End content-->
-
     <!--Main title-->
-
-
     <!--End main title-->
-
-
-
   </div>
   <!--End contact-->
-
 </section>
 <!--End contact tab-->
 </pr-contact>

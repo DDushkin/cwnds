@@ -13,16 +13,16 @@
         <nav id="main-nav" class="main-nav clearfix tabbed">
           <ul>
             <li>
-              <a data-name="main" class="prNav active" onclick="return openerNav(this);">
+              <a data-name="main" class="prNav" href="#">
                 <i class="fa fa-ticket"></i>Подписки</a>
             </li>
             <li>
-              <a data-name="blog" class="prNav" onclick="return openerNav(this);">
+              <a data-name="blog" class="prNav" href="#blog">
                 <i class="fa fa-pencil"></i>Новости</a>
             </li>
             <li>
-              <a data-name="contact" class="prNav" onclick="return openerNav(this);">
-                <i class="fa fa-map-marker"></i>Контакты</a>
+              <a data-name="contact" class="prNav" href="#contact">
+                <i class="fa fa-map"></i>Контакты</a>
             </li>
           </ul>
         </nav>

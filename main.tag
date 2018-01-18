@@ -16,7 +16,7 @@
                   <h1>Cross Winds <span class="d-block" >Виїздний</span></h1>
                   <p><span class="d-block">21.07.2017</span><span class="d-block">21.07.1997</span></p>
                   <p class="age"><span class="d-block">15 - 20 років</span></p>
-                  <a data-name="away" onclick="return opener(this);">View more</a>
+                  <a data-name="away" onclick="return opener(this);" >View more</a>
                 </figcaption>
               </figure>
             </div>
