@@ -714,7 +714,24 @@ color: #fff;
   .contact-info li .ico {
     top: -80px;
   }
-
+  .img-profile{
+    display: none;
+  }
+    .main-nav.tabbed, .main-nav.tabbed li {
+      background: #172332;
+    }
+    .main-nav.tabbed ul li {
+      float: left;
+      width: 33.3333%;
+      border-right: 1px solid #2d3d51;
+      border-bottom: none;
+    }
+    .margLTop {
+      margin-top: 0px;
+    }
+    .margLBottom {
+      margin-bottom: 0px;
+    }
 }
 
 
