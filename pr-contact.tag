@@ -116,16 +116,17 @@
   <!--End contact-->
 </section>
 this.on('mount', function() {
+
 var tags = riot.mount('rg-map', {
   map: {
-  center: { lat: 37.7577, lng: -242.4376 },
-  zoom: 8,
+  center: { lat: 50.3374588, lng: 30.2951127 },
+  zoom: 17,
   disableDefaultUI: true,
-  styles: [{"featureType":"landscape","elementType":"all","stylers":[{"color":"#dfdfdf"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":100},{"visibility":"on"},{"color":"#c64566"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"transit.station.airport","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"transit.station.bus","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#1d71b8"}]}]
+  styles: [{"featureType": "all", "stylers": [{"saturation": 0}, {"hue": "#729ec6"}]}, {"featureType": "road", "stylers": [{"saturation": -70}]},{"featureType": "transit","stylers": [{"visibility": "off"}]},{"featureType": "poi","stylers": [{"visibility": "off"}]},{"featureType": "water","stylers": [{"visibility": "simplified"},{"saturation": -60}]}]
   }
 })
 
-tags[0].on('loaded', function (map) {  })
+tags[0].on('loaded', function (map) {})
 })
 <!--End contact tab-->
 </pr-contact>
