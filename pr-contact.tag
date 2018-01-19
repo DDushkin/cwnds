@@ -32,7 +32,7 @@
           <!--Row-->
           <div class="row">
             <div class="col-md-12">
-              <div id="map"><iframe src="https://snazzymaps.com/embed/41749" width="100%" height="100%" style="border:none;"></iframe></div>
+              <div id="map"><rg-map apikey="AIzaSyAMoyvByMToRWy5r4qmvOU9viLvArLfw-U"></rg-map></div>
             </div>
           </div>
           <!--End row-->
@@ -115,5 +115,17 @@
   </div>
   <!--End contact-->
 </section>
+this.on('mount', function() {
+var tags = riot.mount('rg-map', {
+  map: {
+  center: { lat: 37.7577, lng: -242.4376 },
+  zoom: 8,
+  disableDefaultUI: true,
+  styles: [{"featureType":"landscape","elementType":"all","stylers":[{"color":"#dfdfdf"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":100},{"visibility":"on"},{"color":"#c64566"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"transit.station.airport","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"transit.station.bus","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#1d71b8"}]}]
+  }
+})
+
+tags[0].on('loaded', function (map) {  })
+})
 <!--End contact tab-->
 </pr-contact>
