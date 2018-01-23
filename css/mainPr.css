@@ -503,9 +503,9 @@ span.meta-date {
 }
 
 .contact-info li .ico {
-  color: #566578;
+  color:  rgb(114, 158, 198);
   background: #253447;
-  font-size: 20px;
+  font-size: 24px;
   height: 80px;
   left: 50%;
   line-height: 48px;
@@ -525,13 +525,6 @@ span.meta-date {
 -ms-transition: all 0.3s ease-in-out;
 transition: all 0.3s ease-in-out;
 }
-
-.contact-info li .ico:hover, .contact-info li .ico:active{
-  background-color: rgb(114, 158, 198);
-color: #fff;
-}
-/*------------------------ End contact section ------------------------*/
-
 
 /* -------------------- Media queries -------------------- */
 
