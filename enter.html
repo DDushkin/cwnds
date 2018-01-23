@@ -15,10 +15,8 @@
     <meta name="theme-color" content="#1b2838">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.modal.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style3.css">
-    <link rel="stylesheet" href="css/mainPr.css">
+    <link rel="stylesheet" href="css/singup.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <script src="https://use.fontawesome.com/2aa872c3e5.js"></script>
   </head>
@@ -55,48 +53,49 @@
 </script>
 
     <div id="splash"></div>
-    <div class="container margLTop  margLBottom">
+    <div class="container-fluid stylish-form">
       <div class="row">
-        <pr-nav></pr-nav>
-        <pr-main></pr-main>
-        <pr-contact></pr-contact>
-        <pr-blog></pr-blog>
+        <div class="col-md-12">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  mx-auto">
+            <div class="row ">
+              <div data-name="signup" class="col-6 tab active-tab">
+                <a  href="#sign-up"><h4 class="text-white text-center">Реєстрація</h4></a>
+              </div>
+              <div data-name="signin" class="col-6 tab">
+                <a href="#sign-in"><h4 class="text-white text-center">Вхід</h4></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <script type="riot/tag" src="pr-nav.tag"></script>
-    <script type="riot/tag" src="pr-main.tag"></script>
-    <script type="riot/tag" src="pr-contact.tag"></script>
-    <script type="riot/tag" src="pr-blog.tag"></script>
+        <signup></signup>
+        <signin></signin>
+      </div>
+    <script type="riot/tag" src="signup.tag"></script>
+    <script type="riot/tag" src="signin.tag"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="owlcarousel/owl.carousel.js"></script>
-    <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.7.2/riot+compiler.min.js"></script>
-    <script src="js/rg.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/riot-route@3.0.0/dist/route.min.js"></script>
     <script>
       riot.compile(function() {
-        riot.mount('pr-nav, pr-main, pr-contact')
+        riot.mount('signup')
         route.start(true)
       })
 
       var r = route.create()
-    r('',        home       )
-    r('blog',   blog      )
-    r('contact',  contact     )
-    r(           home       )
+    r('',        signup     )
+    r('sign-up',   signup    )
+    r('sign-in',  signin     )
+    r(           signup     )
 
 
-    function home() {
-      $(".mainBlock").hide();  $("#main").show(); $(".prNav").removeClass("active"); $("[data-name=main]").addClass("active");
+    function signup() {
+      $(".tab-cont").hide();  console.log(1); $("#signuptab").show(); console.log(2); $(".tab").removeClass("active-tab"); console.log(3); $("[data-name=signup]").addClass("active-tab"); console.log(4);
     }
-    function blog() {
-      $(".mainBlock").hide();  riot.mount('pr-blog'); $("#blog").show(); $(".prNav").removeClass("active"); $("[data-name=blog]").addClass("active");
-    }
-    function contact() {
-      $(".mainBlock").hide();  $("#contact").show(); $(".prNav").removeClass("active"); $("[data-name=contact]").addClass("active");
+    function signin() {
+      $(".tab-cont").hide();  riot.mount('signin'); $("#signintab").show(); $(".tab").removeClass("active-tab"); $("[data-name=signin]").addClass("active-tab");
     }
     </script>
   </body>

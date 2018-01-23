@@ -45,9 +45,9 @@
                   </div>
 
                   <div class="post-title">
-                    <a href="blog_single.html">
+
                       <h1>Which design layout solution should you use ?</h1>
-                    </a>
+
                     <span class="meta-date">23 Sep</span>
                   </div>
 
@@ -84,9 +84,9 @@
                 <div class="col-md-12">
 
                   <div class="post-title">
-                    <a href="blog_single.html">
+
                       <h1>Standar blog post without image</h1>
-                    </a>
+
                     <span class="meta-date">23 Sep</span>
                   </div>
 
@@ -124,9 +124,9 @@
                 <div class="col-md-12">
 
                   <div class="post-title">
-                    <a href="blog_single.html">
+
                       <h1>A blockquote blog post style</h1>
-                    </a>
+                
                     <span class="meta-date">23 Sep</span>
                   </div>
 

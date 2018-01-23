@@ -29,7 +29,7 @@
         <div class="block-content margBSmall">
 
           <div class=" profile margBSmall">
-            <h1>Carlose smith</h1>
+            <h1>Санчо Панса</h1>
           </div>
 
         </div>
@@ -46,18 +46,23 @@
 
                 <ul class="info-list clearfix">
                   <li>
-                    <span class="inf">Name
+                    <span class="inf">Ім'я
                     </span>
-                    <span class="value">Carlose Smith</span>
+                    <span class="value">Санчо</span>
                   </li>
                   <li>
-                    <span class="inf">Date of birth</span>
+                    <span class="inf">Прізвище
+                    </span>
+                    <span class="value">Панса</span>
+                  </li>
+                  <li>
+                    <span class="inf">Дата народження</span>
                     <span class="value">
-                      September 9, 1982
+                      21/07/1997
                     </span>
                   </li>
                   <li>
-                    <span class="inf">Address</span>
+                    <span class="inf">Адреса</span>
                     <span class="value">
                       1234 Street Road City Name</span>
                   </li>
@@ -73,14 +78,20 @@
                     <span class="value">youremail@gmail.com</span>
                   </li>
                   <li>
-                    <span class="inf">Phone</span>
+                    <span class="inf">Мій телефон</span>
                     <span class="value">
                       + 123 456 789 456
                     </span>
                   </li>
                   <li>
-                    <span class="inf">Skype</span>
-                    <span class="value">Carlose_Smith</span>
+                    <span class="inf">Телефон батьків</span>
+                    <span class="value">
+                      + 123 456 789 456
+                    </span>
+                  </li>
+                  <li>
+                    <span class="inf">Розмір</span>
+                    <span class="value">M</span>
                   </li>
                 </ul>
 
