@@ -71,3 +71,9 @@ function opener(el){
   var i = $('[data-remodal-id=land]').remodal();
   i.open();
 }
+
+function subscribe(){
+  $('.value input').removeAttr('readonly');
+  $(".info-camp-block").hide();
+  $(".subscribe-btn").removeClass('d-none');
+}

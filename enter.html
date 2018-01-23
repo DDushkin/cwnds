@@ -78,6 +78,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.7.2/riot+compiler.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/riot-route@3.0.0/dist/route.min.js"></script>
+    <script src="js/main.js"></script>
     <script>
       riot.compile(function() {
         riot.mount('signup')
@@ -92,7 +93,7 @@
 
 
     function signup() {
-      $(".tab-cont").hide();  console.log(1); $("#signuptab").show(); console.log(2); $(".tab").removeClass("active-tab"); console.log(3); $("[data-name=signup]").addClass("active-tab"); console.log(4);
+      $(".tab-cont").hide();  $("#signuptab").show();  $(".tab").removeClass("active-tab");  $("[data-name=signup]").addClass("active-tab");
     }
     function signin() {
       $(".tab-cont").hide();  riot.mount('signin'); $("#signintab").show(); $(".tab").removeClass("active-tab"); $("[data-name=signin]").addClass("active-tab");

@@ -13,7 +13,10 @@ padding: 5px 20px 5px 20px;
 font-size: 14px;
 line-height: 18px;
 }
-
+.btn-lg {
+    font-size: 2em;
+    padding: 15px 48px;
+}
 .btn-default:hover, .btn-default:active{
   border-color: rgb(114, 158, 198);
   color: rgb(114, 158, 198);
@@ -805,7 +808,9 @@ color: #fff;
     border-left: 1px solid #efefef;
     border-bottom: 1px solid #efefef;
   }
-
+  .info ul.info-list li .value{
+    width: 100%;
+  }
   .block.service div {
     margin-bottom: 30px;
   }

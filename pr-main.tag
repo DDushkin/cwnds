@@ -41,6 +41,7 @@
           <div class="info">
 
             <!--Row-->
+            <form class="privatInfo" method="post">
             <div class="row">
               <div class="col-md-6">
 
@@ -48,23 +49,28 @@
                   <li>
                     <span class="inf">Ім'я
                     </span>
-                    <span class="value">Санчо</span>
+                    <span class="value">
+                      <input class="form-control" name="fName" type="text" value="Санчо" readonly>
+                    </span>
                   </li>
                   <li>
                     <span class="inf">Прізвище
                     </span>
-                    <span class="value">Панса</span>
+                    <span class="value">
+                      <input class="form-control" name="lName" type="text" value="Панса" readonly>
+                    </span>
                   </li>
                   <li>
                     <span class="inf">Дата народження</span>
                     <span class="value">
-                      21/07/1997
+                      <input class="form-control" name="dBirth" type="text" value="21/07/1997" readonly>
                     </span>
                   </li>
                   <li>
                     <span class="inf">Адреса</span>
                     <span class="value">
-                      1234 Street Road City Name</span>
+                      <input class="form-control" name="addr" type="text" value="1234 Street Road City Name" readonly>
+                    </span>
                   </li>
                 </ul>
 
@@ -75,29 +81,37 @@
                 <ul class="info-list">
                   <li>
                     <span class="inf">Email</span>
-                    <span class="value">youremail@gmail.com</span>
+                    <span class="value">
+                      <input class="form-control" name="mail" type="text" value="youremail@gmail.com" readonly>
+                    </span>
                   </li>
                   <li>
                     <span class="inf">Мій телефон</span>
                     <span class="value">
-                      + 123 456 789 456
+                      <input class="form-control" name="tel" type="text" value="+ 123 456 789 456" readonly>
                     </span>
                   </li>
                   <li>
                     <span class="inf">Телефон батьків</span>
                     <span class="value">
-                      + 123 456 789 456
+                      <input class="form-control" name="pTel" type="text" value="+ 123 456 789 456" readonly>
                     </span>
                   </li>
                   <li>
                     <span class="inf">Розмір</span>
-                    <span class="value">M</span>
+                    <span class="value">
+                      <input class="form-control" name="size" type="text" value="M" readonly>
+                    </span>
                   </li>
                 </ul>
 
               </div>
 
             </div>
+              <div class="text-center my-3 d-none subscribe-btn">
+                <a href="" class="btn btn-default btn-lg">Get Started</a>
+              </div>
+            </form>
             <!--End row-->
 
           </div>
@@ -105,7 +119,7 @@
         </div>
         <!--End block content-->
         <!--Row-->
-        <div class="row">
+        <div class="row my-4 info-camp-block">
           <div class="col-md-6">
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem.
             </p>
@@ -159,9 +173,9 @@
                     <span class="badge-box">
                       <i class="fa fa-check"></i>
                     </span>
-                    <h4 class="card-title">Card title</h4>
+                    <h4 class="card-title">Cross Winds - Day camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase">Explore</a>
+                    <a href="#" class="btn btn-default text-uppercase" onclick="return subscribe();">Explore</a>
                   </div>
                 </div>
               </div>
@@ -172,9 +186,9 @@
                   <img class="card-img-top" src="img/gallery/card-3.jpeg" alt="Card image cap">
                   <div class="card-body">
                     <span class="badge-box">
-                      <i class="fa fa-check"></i>
+                      <i class="fa fa-times"></i>
                     </span>
-                    <h4 class="card-title">Card title</h4>
+                    <h4 class="card-title">Cross Winds - Away camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-default text-uppercase">Explore</a>
                   </div>
@@ -206,9 +220,9 @@
                   </div>
                   <div class="card-body">
                     <span class="badge-box">
-                      <i class="fa fa-user-circle-o"></i>
+                      <i class="fa fa-times"></i>
                     </span>
-                    <h4 class="card-title">Card title</h4>
+                    <h4 class="card-title">Cross Winds - Winter camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-default text-uppercase">Explore</a>
                   </div>
@@ -221,9 +235,9 @@
                   <img class="card-img-top" src="img/gallery/card-2.jpeg" alt="Card image cap">
                   <div class="card-body">
                     <span class="badge-box">
-                      <i class="fa fa-check"></i>
+                      <i class="fa fa-times"></i>
                     </span>
-                    <h4 class="card-title">Card title</h4>
+                    <h4 class="card-title">Enjoy - Kids camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-default text-uppercase">Explore</a>
                   </div>
@@ -236,7 +250,7 @@
                   <img class="card-img-top" src="img/gallery/card-1.jpeg" alt="Card image cap">
                   <div class="card-body">
                     <span class="badge-box">
-                      <i class="fa fa-check"></i>
+                      <i class="fa fa-times"></i>
                     </span>
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
