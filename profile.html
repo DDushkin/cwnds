@@ -59,6 +59,7 @@
       <div class="row">
         <pr-nav></pr-nav>
         <pr-main></pr-main>
+        <pr-list></pr-list>
         <pr-contact></pr-contact>
         <pr-blog></pr-blog>
       </div>
@@ -68,6 +69,7 @@
     <script type="riot/tag" src="pr-main.tag"></script>
     <script type="riot/tag" src="pr-contact.tag"></script>
     <script type="riot/tag" src="pr-blog.tag"></script>
+    <script type="riot/tag" src="pr-list.tag"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="owlcarousel/owl.carousel.js"></script>
     <script src="js/main.js"></script>
@@ -84,6 +86,7 @@
 
       var r = route.create()
     r('',        home       )
+    r('list',   list      )
     r('blog',   blog      )
     r('contact',  contact     )
     r(           home       )
@@ -91,6 +94,9 @@
 
     function home() {
       $(".mainBlock").hide();  $("#main").show(); $(".prNav").removeClass("active"); $("[data-name=main]").addClass("active");
+    }
+    function list() {
+      $(".mainBlock").hide();  riot.mount('pr-list'); $("#list").show(); $(".prNav").removeClass("active"); $("[data-name=list]").addClass("active");
     }
     function blog() {
       $(".mainBlock").hide();  riot.mount('pr-blog'); $("#blog").show(); $(".prNav").removeClass("active"); $("[data-name=blog]").addClass("active");

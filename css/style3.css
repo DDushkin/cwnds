@@ -125,6 +125,7 @@ em {
 
 strong {
   color: #1b2838;
+      font-weight: 700;
 }
 
 small {
@@ -132,6 +133,10 @@ small {
 }
 
 p {
+  line-height: 22px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 22px;
 }
 

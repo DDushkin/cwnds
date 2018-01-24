@@ -13,9 +13,21 @@ padding: 5px 20px 5px 20px;
 font-size: 14px;
 line-height: 18px;
 }
+.info-camp-block ul{
+ list-style-type: disc;
+ padding: 0 0 15px 40px;
+}
+.info-camp-block{
+  font-size: 18px;
+}
+.info-camp-block p{
+  font-size: 18px;
+  padding: 0 0 15px;
+}
 .btn-lg {
-    font-size: 2em;
-    padding: 15px 48px;
+  font-size: 1.7em;
+      padding: 15px 48px;
+      text-transform: uppercase;
 }
 .btn-default:hover, .btn-default:active{
   border-color: rgb(114, 158, 198);
@@ -292,7 +304,6 @@ ul{
 
 .info ul.info-list li .inf {
   width: 35%;
-  background: #ffffff;
   left: -1px;
   position: relative;
   border-right: 1px solid #efefef;

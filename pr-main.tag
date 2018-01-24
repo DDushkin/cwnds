@@ -9,7 +9,7 @@
       <!--Main title-->
 
       <div class="main-title">
-        <h1>who am i</h1>
+        <h1>Привіт друже</h1>
         <div class="divider">
           <div class="zigzag large clearfix " data-svg-drawing="yes">
             <svg xml:space="preserve" viewbox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -23,7 +23,7 @@
       <!--End main title-->
 
       <!--Content-->
-      <div class="content">
+      <div class="content single">
 
         <!--Block content-->
         <div class="block-content margBSmall">
@@ -109,7 +109,7 @@
 
             </div>
               <div class="text-center my-3 d-none subscribe-btn">
-                <a href="" class="btn btn-default btn-lg">Get Started</a>
+                <a href="" class="btn btn-default btn-lg">Підтверджую інформацію</a>
               </div>
             </form>
             <!--End row-->
@@ -120,16 +120,17 @@
         <!--End block content-->
         <!--Row-->
         <div class="row my-4 info-camp-block">
-          <div class="col-md-6">
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem.
-            </p>
-          </div>
+          <div class="col-12">
 
-          <div class="col-md-6">
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem.
-            </p>
+            <p><strong>Зверни увагу!</strong> Для того, щоб прийняти участь у заїзді табору:</p>
+            <ul>
+              <li>необхідно просто обрати заїзд, що тобі сподобався, зі списку нижче</li>
+              <li>натиснути кнопку "Хочу поїхати!"</li>
+              <li>після цього система запропонує тобі перевірити правильність твоєї особистої інформації або заповнити пусті рядки.</li>
+              <li>натисни "Підтверджую"</li>
+            </ul>
+            <p>На цьому все) Твоя анкета буде відправлена, а на екрані ти побачиш реквізити для оплати. Правда просто?)</p>
           </div>
-
         </div>
         <!--End row-->
       </div>
@@ -138,7 +139,7 @@
       <!--Main title-->
 
       <div class="main-title">
-        <h1>services</h1>
+        <h1>наші заїзди</h1>
         <div class="divider">
           <div class="zigzag large clearfix " data-svg-drawing="yes">
             <svg xml:space="preserve" viewbox="0 0 69.172 14.975" width="37" height="28" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -152,7 +153,7 @@
       <!--End main title-->
 
       <!--Content-->
-      <div class="content">
+      <div class="content single">
 
         <!--Block content-->
         <div class="block-content ">
@@ -175,7 +176,7 @@
                     </span>
                     <h4 class="card-title">Cross Winds - Day camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase" onclick="return subscribe();">Explore</a>
+                    <a href="#" class="btn btn-default text-uppercase" onclick="return subscribe();">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
@@ -190,7 +191,7 @@
                     </span>
                     <h4 class="card-title">Cross Winds - Away camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase">Explore</a>
+                    <a href="#" class="btn btn-default text-uppercase">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
@@ -224,7 +225,7 @@
                     </span>
                     <h4 class="card-title">Cross Winds - Winter camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase">Explore</a>
+                    <a href="#" class="btn btn-default text-uppercase">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
@@ -239,7 +240,7 @@
                     </span>
                     <h4 class="card-title">Enjoy - Kids camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase">Explore</a>
+                    <a href="#" class="btn btn-default text-uppercase">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
@@ -254,7 +255,7 @@
                     </span>
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase">Explore</a>
+                    <a href="#" class="btn btn-default text-uppercase">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
@@ -288,7 +289,7 @@
                     </span>
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase">Explore</a>
+                    <a href="#" class="btn btn-default text-uppercase">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
