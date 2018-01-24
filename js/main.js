@@ -76,4 +76,7 @@ function subscribe(){
   $('.value input').removeAttr('readonly');
   $(".info-camp-block").hide();
   $(".subscribe-btn").removeClass('d-none');
+  top = $("#main").offset().top;
+  $('body,html').animate({scrollTop: top}, 1500);
+
 }
