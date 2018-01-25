@@ -15,7 +15,7 @@
                 <a href="" class="btn btn-neutral btn-round btn-lg">Увійти</a>
               </div>
               <a href="/profile.html"><small id="emailHelp" class="form-text text-muted text-center">Забули пароль?</small></a>
-            </div>
+            </div>  <!--Убрать ссылку выше-->
           </form>
         </div>
       </div>
