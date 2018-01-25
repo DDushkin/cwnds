@@ -286,7 +286,7 @@
                 <div class="col-md-8">
                   <!-- Start contact form -->
 
-                  <a href="#" data-remodal-action="confirm" class="btn btn-md">
+                  <a href="/enter.html"  class="btn btn-md">
            Подати заявку
           </a>
                 </div>
