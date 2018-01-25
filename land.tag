@@ -32,7 +32,7 @@
     <section id="work" class="contain secondary-bg">
       <div class="container">
         <div class="row justify-content-md-center">
-          <div class="col-md-10 offset-md-1 ">
+          <div class="col-md-10">
             <div class="heading">
               <h4>Про табір</h4>
               <p>
@@ -132,7 +132,20 @@
     </section>
     <!-- End how it work -->
 
+    <section id="team" class="contain primary-bg">
+      <div class="container">
+        <div class="heading">
+          <h4>Запрошення</h4>
 
+        </div>
+          <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+              <img id="team-img" atl="" class="img-fluid rounded" src="img/gallery/team-{ opts.img }.jpg">
+            </div>
+          </div>
+        </div>
+
+    </section>
 
     <!-- Start features-->
     <section id="features">
