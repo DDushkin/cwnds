@@ -19,6 +19,12 @@ button.close span{
 .alert{
   font-size: 16px;
 }
+.is-subscribed, .subscriptions-list{
+  display: none;
+}
+.not-subscribed{
+  display: none;
+}
 .zigzag::after{
   content: "";
   background: url(../img/zigzag.svg);

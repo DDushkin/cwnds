@@ -131,7 +131,7 @@
                         <span class="inf">Студія №1</span>
                         <span class="value">
                           <select class="custom-select" name="mk1" onchange="validate();" required>
-                            <option value="">Обери майстер-клас</option>
+                            <option value="">Майстер-клас не обрано</option>
                             <option value="mk1">МК1</option>
                             <option value="mk2">МК2</option>
                             <option value="mk3">МК3</option>
@@ -145,7 +145,7 @@
                         <span class="inf">Студія №2</span>
                         <span class="value">
                           <select class="custom-select" name="mk2" onchange="validate();" required>
-                            <option value="">Обери майстер-клас</option>
+                            <option value="">Майстер-клас не обрано</option>
                             <option value="mk4">МК4</option>
                             <option value="mk5">МК5</option>
                             <option value="mk6">МК6</option>
@@ -175,7 +175,7 @@
         <div class="row my-4 info-camp-block">
           <div class="alert alert-primary col-12 alert-dismissible fade show" role="alert">
 
-            <p><span class="alert-heading">Зверни увагу!</span> Для того, щоб прийняти участь у заїзді табору:</p>
+            <p><strong>Зверни увагу!</strong> Для того, щоб прийняти участь у заїзді табору:</p>
             <ul>
               <li>необхідно просто обрати заїзд, що тобі сподобався, зі списку нижче</li>
               <li>натиснути кнопку "Хочу поїхати!"</li>

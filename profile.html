@@ -127,6 +127,30 @@
       });
     }
 
+    function checkPaid(){
+      if($('.subscriptions-list tbody').has('[data-camp]').length == 1){
+        $('.is-subscribed').show();
+        $('.subscriptions-list').show();
+        $('[data-camp]').each(function(){
+          var price = Number($(this).children('.subscriptions-list__price').html());
+          var paid = Number($(this).children('.subscriptions-list__paid').html());
+          switch (price - paid) {
+            case 0:
+              $(this).addClass('table-success');
+              break;
+            case price:
+              $(this).addClass('table-danger');
+              break;
+            default:
+              $(this).addClass('table-warning');
+              break;
+          }
+        });
+      } else{
+        $('.not-subscribed').show();
+      }
+    }
+
     </script>
   </body>
 </html>
