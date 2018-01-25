@@ -222,11 +222,10 @@
                   <img class="card-img-top" src="img/gallery/card-1.jpeg" alt="Card image cap">
                   <div class="card-body">
                     <span class="badge-box">
-                      <i class="fa fa-check"></i>
+                      <i class="fa fa-times"></i>
                     </span>
                     <h4 class="card-title">Cross Winds - Day camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase" onclick="subscribe(); validate();">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
@@ -237,7 +236,7 @@
                   <img class="card-img-top" src="img/gallery/card-3.jpeg" alt="Card image cap">
                   <div class="card-body">
                     <span class="badge-box">
-                      <i class="fa fa-times"></i>
+                      <i class="fa fa-check"></i>
                     </span>
                     <h4 class="card-title">Cross Winds - Away camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -275,7 +274,6 @@
                     </span>
                     <h4 class="card-title">Cross Winds - Winter camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase" onclick="subscribe(); validate();">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
@@ -290,59 +288,11 @@
                     </span>
                     <h4 class="card-title">Enjoy - Kids camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase" onclick="subscribe(); validate();">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-4">
 
-                <div class="card card-01">
-                  <img class="card-img-top" src="img/gallery/card-1.jpeg" alt="Card image cap">
-                  <div class="card-body">
-                    <span class="badge-box">
-                      <i class="fa fa-times"></i>
-                    </span>
-                    <h4 class="card-title">Card title</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase" onclick="subscribe(); validate();">Хочу поїхати!</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card card-01">
-                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner" role="listbox">
-                      <div class="carousel-item active">
-                        <img class="d-block img-fluid" src="img/gallery/card-3.jpeg" alt="First slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block img-fluid" src="img/gallery/card-2.jpeg" alt="Second slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block img-fluid" src="img/gallery/card-1.jpeg" alt="Third slide">
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </div>
-                  <div class="card-body">
-                    <span class="badge-box">
-                      <i class="fa fa-user-circle-o"></i>
-                    </span>
-                    <h4 class="card-title">Card title</h4>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase" onclick="subscribe(); validate();">Хочу поїхати!</a>
-                  </div>
-                </div>
-              </div>
               <!--End block-->
 
             </div>
