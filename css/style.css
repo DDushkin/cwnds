@@ -170,14 +170,14 @@ figure.effect-milo:hover p {
     position: -webkit-sticky;}
 
     .social-last .facebook-img{
-      background: #4267b2 center no-repeat;
+      background: #4267b2 center no-repeat!important;
         background-size: cover;
         width: 100%;
         height: 100%;
         transform: translate3d(-15px,0,0) scale(1.12)!important;
     }
     .social-last .inst-img{
-      background: #d93175; center no-repeat;
+      background: #d93175 center no-repeat!important;
         background-size: cover;
         width: 100%;
         height: 100%;
@@ -274,7 +274,7 @@ transform: translate3d(0%, 0, 0);
     font-size: 6vh;
 }
 .social-last{
-  order: 1;
+  order: 1!important;
 }
 figure.effect-milo:hover p, .wide figure.effect-milo:hover p {
     -webkit-transform: translate3d(0,3vh,0);
