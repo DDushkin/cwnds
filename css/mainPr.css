@@ -19,12 +19,7 @@ button.close span{
 .alert{
   font-size: 16px;
 }
-.is-subscribed, .subscriptions-list{
-  display: none;
-}
-.not-subscribed{
-  display: none;
-}
+
 .zigzag::after{
   content: "";
   background: url(../img/zigzag.svg);
@@ -351,7 +346,7 @@ ul{
 }
 
 .post-title h1, .post-title a {
-  font-size: 24px;
+  font-size: 21px;
   text-transform: none;
   color: inherit;
 }
@@ -364,7 +359,7 @@ span.meta-date {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
   color: #ffffff;
-  font-size: 10px;
+  font-size: 12px;
   margin-left: 20px;
   padding: 0 12px;
   text-transform: uppercase;
@@ -374,6 +369,7 @@ span.meta-date {
 
 .block-post p {
   margin-bottom: 25px;
+  font-size: 16px;
 }
 
 .block-post hr {
@@ -796,7 +792,7 @@ transition: all 0.3s ease-in-out;
   display: inline-block;
 white-space: normal;
 line-height: 30px;
-padding: 6px 0px;
+padding: 6px 15px;
 font-size: 1.6em;
 }
 .content.single {
@@ -827,7 +823,8 @@ font-size: 1.6em;
     width: 100%;
   }
   .about .profile h1 {
-    font-size: 25px;
+    font-size: 21px;
+    padding-left: 15px;
   }
   .about .profile h3 {
     line-height: 30px;

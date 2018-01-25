@@ -129,8 +129,8 @@
 
     function checkPaid(){
       if($('.subscriptions-list tbody').has('[data-camp]').length == 1){
-        $('.is-subscribed').show();
-        $('.subscriptions-list').show();
+        $('.is-subscribed').removeClass('d-none');
+        $('.subscriptions-list').removeClass('d-none');
         $('[data-camp]').each(function(){
           var price = Number($(this).children('.subscriptions-list__price').html());
           var paid = Number($(this).children('.subscriptions-list__paid').html());
@@ -147,7 +147,7 @@
           }
         });
       } else{
-        $('.not-subscribed').show();
+        $('.not-subscribed').removeClass('d-none');
       }
     }
 

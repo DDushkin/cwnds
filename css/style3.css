@@ -142,7 +142,7 @@ p {
 
 .main-title {
   border-bottom: 1px solid #fff;
-  padding: 30px 10px 2px 40px;
+  padding: 30px 10px 2px 30px;
   position: relative;
 }
 
@@ -188,7 +188,8 @@ p {
 }
 
 .main-title h1 {
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .divider-m {

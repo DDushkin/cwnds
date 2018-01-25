@@ -24,13 +24,13 @@
 
             <div class="row">
               <div class="col-12">
-                <div class="alert alert-success is-subscribed" role="alert">
-                  Дякуюємо за реєстрацію! Будь-ласка внеси оплату за табір найближчим часом. Карта "Приват Банк" 4149 4378 6467 3668 Новикова В.Д. Для того, щоб пришвидшити зарахування коштів, просимо тебе вказувати твоє ім'я, прізвище та назву табору в назваченні платежу.
+                <div class="alert alert-success is-subscribed d-none" role="alert">
+                  Дякуюємо за реєстрацію! Будь-ласка внеси оплату за табір найближчим часом. Карта "Приват Банк" 4149 4378 6467 3668 Новикова В.Д. Для того, щоб пришвидшити зарахування коштів, просимо тебе вказувати твоє ім'я, прізвище та назву табору в назначенні платежу.
                 </div>
-                <div class="alert alert-warning not-subscribed" role="alert">
+                <div class="alert alert-warning not-subscribed d-none" role="alert">
                   Ви ще не подали ні однієї заявки. Для того, щоб прийняти участь у заїзді табору, подайте заявку у вкладці <a href="#" class="alert-link">"Хочу в табір"</a>.
                 </div>
-                <table class="table table-striped table-responsive-md subscriptions-list">
+                <table class="table table-striped table-responsive-md subscriptions-list d-none">
                   <thead>
                     <tr>
                       <th scope="col">#</th>
