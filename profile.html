@@ -104,6 +104,29 @@
     function contact() {
       $(".mainBlock").hide();  $("#contact").show(); $(".prNav").removeClass("active"); $("[data-name=contact]").addClass("active");
     }
+
+    function subscribe(){
+      $('.privatInfo fieldset').removeAttr('disabled');
+      $(".info-camp-block .alert").alert('close')
+      $(".subscribe-btn").removeClass('d-none');
+      top = $("#main").offset().top;
+      $('body,html').animate({scrollTop: top}, 1500);
+    }
+
+    function validate(){
+      $('form.privatInfo input, form.privatInfo select').each(function(){
+        if(!$(this).val() || $(this).val() == ''){
+          $(this).removeClass('is-valid');
+          $(this).addClass('is-invalid');//Сделаем бордер красным
+          $(this).next('invalid-feedback').show();
+        }else{
+          $(this).next('invalid-feedback').hide();
+          $(this).removeClass('is-invalid');
+          $(this).addClass('is-valid');//Сделаем бордер зеленым
+        }
+      });
+    }
+
     </script>
   </body>
 </html>

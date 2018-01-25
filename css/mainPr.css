@@ -13,6 +13,12 @@ padding: 5px 20px 5px 20px;
 font-size: 14px;
 line-height: 18px;
 }
+button.close span{
+  font-family: sans-serif;
+}
+.alert{
+  font-size: 16px;
+}
 .zigzag::after{
   content: "";
   background: url(../img/zigzag.svg);
@@ -277,7 +283,7 @@ ul{
 }
 
 .content.single {
-  padding: 40px 40px 0;
+  padding: 10px 40px 0;
 }
 
 
@@ -324,6 +330,7 @@ ul{
 .info ul.info-list li .value {
   width: 63%;
   color: #666666;
+  position: relative;
 }
 
 .info ul.info-list li:last-child {

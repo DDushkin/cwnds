@@ -35,75 +35,135 @@
 
             <!--Row-->
             <form class="privatInfo" method="post">
-            <div class="row">
-              <div class="col-md-6">
+              <fieldset disabled>
+                <div class="row">
+                  <div class="col-md-6">
 
-                <ul class="info-list clearfix">
-                  <li>
-                    <span class="inf">Ім'я
-                    </span>
-                    <span class="value">
-                      <input class="form-control" name="fName" type="text" value="Санчо" readonly>
-                    </span>
-                  </li>
-                  <li>
-                    <span class="inf">Прізвище
-                    </span>
-                    <span class="value">
-                      <input class="form-control" name="lName" type="text" value="Панса" readonly>
-                    </span>
-                  </li>
-                  <li>
-                    <span class="inf">Дата народження</span>
-                    <span class="value">
-                      <input class="form-control" name="dBirth" type="text" value="21/07/1997" readonly>
-                    </span>
-                  </li>
-                  <li>
-                    <span class="inf">Адреса</span>
-                    <span class="value">
-                      <input class="form-control" name="addr" type="text" value="1234 Street Road City Name" readonly>
-                    </span>
-                  </li>
-                </ul>
+                    <ul class="info-list clearfix">
+                      <li>
+                        <span class="inf">Ім'я</span>
+                        <span class="value">
+                          <input class="form-control" name="fName" type="text" value="Санчо" onchange="validate();" required>
+                          <div class="invalid-tooltip">
+                            Заповни це поле.
+                          </div>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="inf">Прізвище</span>
+                        <span class="value">
+                          <input class="form-control" name="lName" type="text" value="Панса" onchange="validate();" required>
+                          <div class="invalid-tooltip">
+                            Заповни це поле.
+                          </div>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="inf">Дата народження</span>
+                        <span class="value">
+                          <input class="form-control" name="dBirth" type="text" value="21/07/1997" onchange="validate();" required>
+                          <div class="invalid-tooltip">
+                            Заповни це поле.
+                          </div>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="inf">Адреса</span>
+                        <span class="value">
+                          <input class="form-control" name="addr" type="text" value="1234 Street Road City Name" onchange="validate();" required>
+                          <div class="invalid-tooltip">
+                            Заповни це поле.
+                          </div>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="inf">Email</span>
+                        <span class="value">
+                          <input class="form-control" name="mail" type="text" value="youremail@gmail.com" onchange="validate();" required>
+                          <div class="invalid-tooltip">
+                            Заповни це поле.
+                          </div>
+                        </span>
+                      </li>
+                    </ul>
 
-              </div>
+                  </div>
 
-              <div class="col-md-6">
+                  <div class="col-md-6">
 
-                <ul class="info-list">
-                  <li>
-                    <span class="inf">Email</span>
-                    <span class="value">
-                      <input class="form-control" name="mail" type="text" value="youremail@gmail.com" readonly>
-                    </span>
-                  </li>
-                  <li>
-                    <span class="inf">Мій телефон</span>
-                    <span class="value">
-                      <input class="form-control" name="tel" type="text" value="+ 123 456 789 456" readonly>
-                    </span>
-                  </li>
-                  <li>
-                    <span class="inf">Телефон батьків</span>
-                    <span class="value">
-                      <input class="form-control" name="pTel" type="text" value="+ 123 456 789 456" readonly>
-                    </span>
-                  </li>
-                  <li>
-                    <span class="inf">Розмір</span>
-                    <span class="value">
-                      <input class="form-control" name="size" type="text" value="M" readonly>
-                    </span>
-                  </li>
-                </ul>
+                    <ul class="info-list">
 
-              </div>
+                      <li>
+                        <span class="inf">Мій телефон</span>
+                        <span class="value">
+                          <input class="form-control" name="tel" type="text" value="+ 123 456 789 456" onchange="validate();" required>
+                          <div class="invalid-tooltip">
+                            Заповни це поле.
+                          </div>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="inf">Телефон батьків</span>
+                        <span class="value">
+                          <input class="form-control" name="pTel" type="text" value="+ 123 456 789 456" onchange="validate();" required>
+                          <div class="invalid-tooltip">
+                            Заповни це поле.
+                          </div>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="inf">Розмір</span>
+                        <span class="value">
+                          <select class="custom-select" name="size" onchange="validate();" required>
+                            <option value="">Розмір футболки не вказано</option>
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                          </select>
+                          <div class="invalid-tooltip">
+                            Заповни це поле.
+                          </div>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="inf">Студія №1</span>
+                        <span class="value">
+                          <select class="custom-select" name="mk1" onchange="validate();" required>
+                            <option value="">Обери майстер-клас</option>
+                            <option value="mk1">МК1</option>
+                            <option value="mk2">МК2</option>
+                            <option value="mk3">МК3</option>
+                          </select>
+                          <div class="invalid-tooltip">
+                            Заповни це поле.
+                          </div>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="inf">Студія №2</span>
+                        <span class="value">
+                          <select class="custom-select" name="mk2" onchange="validate();" required>
+                            <option value="">Обери майстер-клас</option>
+                            <option value="mk4">МК4</option>
+                            <option value="mk5">МК5</option>
+                            <option value="mk6">МК6</option>
+                          </select>
+                          <div class="invalid-tooltip">
+                            Заповни це поле.
+                          </div>
+                        </span>
+                      </li>
+                    </ul>
 
-            </div>
-              <div class="text-center my-3 d-none subscribe-btn">
-                <a href="" class="btn btn-default btn-lg">Підтверджую інформацію</a>
-              </div>
+                  </div>
+
+                </div>
+                <div class="text-center my-3 d-none subscribe-btn">
+                  <a href="#" class="btn btn-default btn-lg">Підтвердити</a>
+                </div>
+              </fieldset>
             </form>
             <!--End row-->
 
@@ -113,16 +173,20 @@
         <!--End block content-->
         <!--Row-->
         <div class="row my-4 info-camp-block">
-          <div class="col-12">
+          <div class="alert alert-primary col-12 alert-dismissible fade show" role="alert">
 
-            <p><strong>Зверни увагу!</strong> Для того, щоб прийняти участь у заїзді табору:</p>
+            <p><span class="alert-heading">Зверни увагу!</span> Для того, щоб прийняти участь у заїзді табору:</p>
             <ul>
               <li>необхідно просто обрати заїзд, що тобі сподобався, зі списку нижче</li>
               <li>натиснути кнопку "Хочу поїхати!"</li>
               <li>після цього система запропонує тобі перевірити правильність твоєї особистої інформації або заповнити пусті рядки.</li>
               <li>натисни "Підтверджую"</li>
             </ul>
-            <p>На цьому все) Твоя анкета буде відправлена, а на екрані ти побачиш реквізити для оплати. Правда просто?)</p>
+            <hr>
+            <p class="mb-0">На цьому все) Твоя анкета відправлена, для того щоб дізнатись реквізити та статус оплати перейди у вкладку <a href="#list" class="alert-link">"Мої заявки"</a>. Правда просто?)</p>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
         </div>
         <!--End row-->
@@ -162,7 +226,7 @@
                     </span>
                     <h4 class="card-title">Cross Winds - Day camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase" onclick="return subscribe();">Хочу поїхати!</a>
+                    <a href="#" class="btn btn-default text-uppercase" onclick="subscribe(); validate();">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
@@ -177,7 +241,7 @@
                     </span>
                     <h4 class="card-title">Cross Winds - Away camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase">Хочу поїхати!</a>
+                    <a href="#" class="btn btn-default text-uppercase" onclick="subscribe(); validate();">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
@@ -211,7 +275,7 @@
                     </span>
                     <h4 class="card-title">Cross Winds - Winter camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase">Хочу поїхати!</a>
+                    <a href="#" class="btn btn-default text-uppercase" onclick="subscribe(); validate();">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
@@ -226,7 +290,7 @@
                     </span>
                     <h4 class="card-title">Enjoy - Kids camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase">Хочу поїхати!</a>
+                    <a href="#" class="btn btn-default text-uppercase" onclick="subscribe(); validate();">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
@@ -241,7 +305,7 @@
                     </span>
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase">Хочу поїхати!</a>
+                    <a href="#" class="btn btn-default text-uppercase" onclick="subscribe(); validate();">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
@@ -275,7 +339,7 @@
                     </span>
                     <h4 class="card-title">Card title</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase">Хочу поїхати!</a>
+                    <a href="#" class="btn btn-default text-uppercase" onclick="subscribe(); validate();">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
