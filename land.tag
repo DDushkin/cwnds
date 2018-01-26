@@ -1,6 +1,5 @@
 <land>
   <link rel="stylesheet" href="css/style2.css">
-  <link rel="stylesheet" href="css/overwrite.css">
   <div class="remodal md-modal" data-remodal-id="land" tabindex="-1">
     <button data-remodal-action="close" class="remodal-close md-close"></button>
 

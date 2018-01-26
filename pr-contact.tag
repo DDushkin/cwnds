@@ -5,36 +5,7 @@
   <!--Contact -->
   <div class="contact">
 
-    <!--Main title-->
 
-    <div class="main-title">
-      <h1 class="zigzag">map location</h1>
-
-    </div>
-
-    <!--End main title-->
-
-    <!--Content-->
-    <div class="content">
-
-      <!--Block content-->
-      <div class="block-content ">
-
-        <!--Map-->
-        <div class="block-map">
-          <!--Row-->
-          <div class="row">
-            <div class="col-md-12">
-              <div id="map"><rg-map apikey="AIzaSyAMoyvByMToRWy5r4qmvOU9viLvArLfw-U"></rg-map></div>
-            </div>
-          </div>
-          <!--End row-->
-        </div>
-        <!--End map-->
-      </div>
-      <!--End block content-->
-    </div>
-    <!--End content-->
     <!--Main title-->
     <div class="main-title">
       <h1 class="zigzag">contact info</h1>
@@ -101,18 +72,6 @@
   </div>
   <!--End contact-->
 </section>
-this.on('mount', function() {
 
-var tags = riot.mount('rg-map', {
-  map: {
-  center: { lat: 50.3374588, lng: 30.2951127 },
-  zoom: 17,
-  disableDefaultUI: true,
-  styles: [{"featureType": "all", "stylers": [{"saturation": 0}, {"hue": "#729ec6"}]}, {"featureType": "road", "stylers": [{"saturation": -70}]},{"featureType": "transit","stylers": [{"visibility": "off"}]},{"featureType": "poi","stylers": [{"visibility": "off"}]},{"featureType": "water","stylers": [{"visibility": "simplified"},{"saturation": -60}]}]
-  }
-})
-
-tags[0].on('loaded', function (map) {})
-})
 <!--End contact tab-->
 </pr-contact>
