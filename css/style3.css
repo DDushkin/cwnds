@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Exo 2', sans-serif;
   text-transform: uppercase;
   margin: 0 0 15px 0;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 em {
@@ -142,7 +142,7 @@ p {
 
 .main-title {
   border-bottom: 1px solid #fff;
-  padding: 30px 10px 2px 40px;
+  padding: 30px 10px 2px 30px;
   position: relative;
 }
 
@@ -188,7 +188,8 @@ p {
 }
 
 .main-title h1 {
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .divider-m {
@@ -200,9 +201,9 @@ p {
   content: "";
   height: 1px;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -70px;
   position: absolute;
-  top: 13px;
+  top: 9px;
   width: 120px;
 }
 

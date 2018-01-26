@@ -13,6 +13,13 @@ padding: 5px 20px 5px 20px;
 font-size: 14px;
 line-height: 18px;
 }
+button.close span{
+  font-family: sans-serif;
+}
+.alert{
+  font-size: 16px;
+}
+
 .zigzag::after{
   content: "";
   background: url(../img/zigzag.svg);
@@ -28,12 +35,10 @@ line-height: 18px;
  list-style-type: disc;
  padding: 0 0 15px 40px;
 }
-.info-camp-block{
-  font-size: 18px;
-}
+
 .info-camp-block p{
-  font-size: 18px;
   padding: 0 0 15px;
+  font-size: 16px;
 }
 .btn-lg {
   font-size: 1.7em;
@@ -277,7 +282,7 @@ ul{
 }
 
 .content.single {
-  padding: 40px 40px 0;
+  padding: 10px 40px 0;
 }
 
 
@@ -324,6 +329,7 @@ ul{
 .info ul.info-list li .value {
   width: 63%;
   color: #666666;
+  position: relative;
 }
 
 .info ul.info-list li:last-child {
@@ -340,7 +346,7 @@ ul{
 }
 
 .post-title h1, .post-title a {
-  font-size: 24px;
+  font-size: 21px;
   text-transform: none;
   color: inherit;
 }
@@ -353,7 +359,7 @@ span.meta-date {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
   color: #ffffff;
-  font-size: 10px;
+  font-size: 12px;
   margin-left: 20px;
   padding: 0 12px;
   text-transform: uppercase;
@@ -363,6 +369,7 @@ span.meta-date {
 
 .block-post p {
   margin-bottom: 25px;
+  font-size: 16px;
 }
 
 .block-post hr {
@@ -785,7 +792,7 @@ transition: all 0.3s ease-in-out;
   display: inline-block;
 white-space: normal;
 line-height: 30px;
-padding: 6px 0px;
+padding: 6px 15px;
 font-size: 1.6em;
 }
 .content.single {
@@ -816,7 +823,8 @@ font-size: 1.6em;
     width: 100%;
   }
   .about .profile h1 {
-    font-size: 25px;
+    font-size: 21px;
+    padding-left: 15px;
   }
   .about .profile h3 {
     line-height: 30px;

@@ -28,7 +28,7 @@
                 <input type="password" class="form-control" name="text" placeholder="Пароль..."  required>
               </div>
               <div class="footer text-center">
-                <a href="" class="btn btn-neutral btn-round btn-lg">Get Started</a>
+                <a href="" class="btn btn-neutral btn-round btn-lg">Зареєструватись</a>
               </div>
             </div>
           </form>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Cross Winds - Летние лагеря</title>
+    <title>Cross Winds - Особистий кабінет</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -104,6 +104,53 @@
     function contact() {
       $(".mainBlock").hide();  $("#contact").show(); $(".prNav").removeClass("active"); $("[data-name=contact]").addClass("active");
     }
+
+    function subscribe(){
+      $('.privatInfo fieldset').removeAttr('disabled');
+      $(".info-camp-block .alert").alert('close')
+      $(".subscribe-btn").removeClass('d-none');
+      top = $("#main").offset().top;
+      $('body,html').animate({scrollTop: top}, 1500);
+    }
+
+    function validate(){
+      $('form.privatInfo input, form.privatInfo select').each(function(){
+        if(!$(this).val() || $(this).val() == ''){
+          $(this).removeClass('is-valid');
+          $(this).addClass('is-invalid');//Сделаем бордер красным
+          $(this).next('invalid-feedback').show();
+        }else{
+          $(this).next('invalid-feedback').hide();
+          $(this).removeClass('is-invalid');
+          $(this).addClass('is-valid');//Сделаем бордер зеленым
+        }
+      });
+    }
+
+    function checkPaid(){
+      if($('.subscriptions-list tbody').has('[data-camp]').length == 1){
+        $('.is-subscribed').removeClass('d-none');
+        $('.subscriptions-list').removeClass('d-none');
+        $('[data-camp]').each(function(){
+          var price = Number($(this).children('.subscriptions-list__price').html());
+          var paid = Number($(this).children('.subscriptions-list__paid').html());
+          switch (price - paid) {
+            case 0:
+              $(this).addClass('table-success');
+              break;
+            case price:
+              $(this).addClass('table-danger');
+              break;
+            default:
+              $(this).addClass('table-warning');
+              break;
+          }
+        });
+      } else{
+        $('.not-subscribed').removeClass('d-none');
+      }
+    }
+
     </script>
   </body>
 </html>

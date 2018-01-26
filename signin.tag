@@ -9,13 +9,13 @@
               </div>
               <div class="input-group">
                 <span class="input-group-prepend"><i class="fa fa-lock input-group-text "></i></span>
-                <input type="password" class="form-control" name="text" placeholder="Password..." required>
+                <input type="password" class="form-control" name="text" placeholder="Пароль..." required>
               </div>
               <div class="footer text-center">
-                <a href="" class="btn btn-neutral btn-round btn-lg">Get Started</a>
+                <a href="" class="btn btn-neutral btn-round btn-lg">Увійти</a>
               </div>
-              <a href=""><small id="emailHelp" class="form-text text-muted text-center">Забули пароль?</small></a>
-            </div>
+              <a href="/profile.html"><small id="emailHelp" class="form-text text-muted text-center">Забули пароль?</small></a>
+            </div>  <!--Убрать ссылку выше-->
           </form>
         </div>
       </div>
