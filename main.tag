@@ -82,7 +82,7 @@
                 </figcaption>
               </figure>
             </div>
-            <div class="col-xl-2 col-lg-12 blocks social-last">
+            <div class="col-xl-2 col-lg-12 col-6 blocks social-last">
               <figure class="effect-milo">
                 <div class="img facebook-img">
                 </div>
@@ -92,7 +92,7 @@
                 </figcaption>
               </figure>
             </div>
-            <div class="col-xl-2 col-lg-12 blocks social-last last">
+            <div class="col-xl-2 col-lg-12 col-6 blocks social-last last">
               <figure class="effect-milo">
                 <div class="img inst-img">
                 </div>

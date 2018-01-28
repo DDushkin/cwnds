@@ -204,8 +204,16 @@ figure.effect-milo:hover p {
   	position: relative;
   	display: block;
   	min-height: 100%;
-  	max-width: 100%;
   	opacity: 0.8;
+  }
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape){
+
+  .row.second.active figcaption{
+    transform: translateX(-5%);
   }
 }
 @media (min-width: 993px ) and (orientation:landscape){
@@ -302,7 +310,12 @@ figure.effect-milo:hover p, .wide figure.effect-milo:hover p {
     -webkit-transform: translate3d(0,3vh,0);
     transform: translate3d(0,10vw,0);
     font-size: 5vw;
+  }
 }
+@media (max-width: 769px){
+  .social-last.last{padding-left: 0;padding-right: 15px;}
+  .social-last{padding-right: 0;padding-left: 15px;}
+
 }
 @media (max-width: 576px){
 	#wrap{
@@ -311,6 +324,8 @@ figure.effect-milo:hover p, .wide figure.effect-milo:hover p {
 	.blocks figure .img {
         height: 210px;
 }
+.social-last.last{padding-left: 0;padding-right: 0;}
+.social-last{padding-right: 0;padding-left: 0;}
   .blocks{
     padding: 0;
   }
