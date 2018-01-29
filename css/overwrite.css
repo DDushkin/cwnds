@@ -1,0 +1,201 @@
+body {
+	background:#fff;
+	font-family: 'Exo 2', sans-serif;
+	color:#4e4e4e;
+	font-weight:400;
+	font-size:16px;
+	padding:0;
+	height: 100%;
+	margin:0;
+}
+
+p{
+	margin:0 0 15px 0;
+}
+
+a,
+a:active,
+a:focus,
+a:hover{
+ outline:none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'Exo 2', sans-serif;
+	text-transform:uppercase;
+	margin:0 0 15px 0;
+	font-weight:700;
+}
+
+
+ul{
+	padding-left:15px;
+}
+/*
+Button
+=========================== */
+.btn {
+	background:none;
+	border-radius:40px;
+	border:3px solid #fff;
+	font-weight:700;
+	font-size:20px;
+	line-height:22px;
+	padding:5px 25px 8px 25px;
+	color:#fff;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn:focus {
+  outline: none;
+  outline: none;
+  outline-offset: -2px;
+  color:#fff;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow:none;
+}
+
+.btn-dark{
+	border:3px solid #1b2838;
+	color:#1b2838;
+}
+
+.btn-sm{
+	font-size:14px;
+	line-height:18px;
+	padding:5px 15px 5px 15px;
+}
+
+.btn-md{
+	font-size:24px;
+	line-height:36px;
+	padding:10px 35px 15px 35px;
+}
+
+.btn-lg{
+	font-size:36px;
+	line-height:48px;
+	padding:20px 45px 25px 45px;
+	border-radius:50px;
+}
+a,
+a:focus,
+a:hover,
+.btn:hover,
+.portfolio-categ li a:hover,
+.portfolio-categ li.active a,
+.portfolio-categ li.active a:hover,
+.image-caption .zoom:hover,
+.image-caption .zoom:focus,
+.style2 .accordion-heading a:hover,
+.secondary-bg .style2 .accordion-heading a:hover,
+.primary-bg .tabbable.style2 .tabber li a:hover,
+.secondary-bg .tabbable.style2 .tabber li.active a,
+.secondary-bg .tabbable.style2 .tabber li.active a:hover,
+.secondary-bg .tabbable.style2 .tabber li.active a:focus,
+.secondary-bg .tabbable.style2 .tabber li.active a:active{
+	color:rgb(114, 158, 198);
+}
+
+.btn:hover,
+.navbar-default .navbar-toggle:hover,
+.portfolio-categ li a:hover,
+.portfolio-categ li.active a,
+.portfolio-categ li.active a:hover,
+.image-caption .zoom:hover,
+.image-caption .zoom:focus,
+.style2 .accordion-heading a:hover,
+.tabbable.style1 .tabber li a:hover,
+.secondary-bg .style2 .accordion-heading a:hover,
+.secondary-bg .tabbable.style1 .tabber li a:hover,
+.primary-bg .tabbable.style2 .tabber li a:hover,
+.secondary-bg .tabbable.style2 .tabber li.active a,
+.secondary-bg .tabbable.style2 .tabber li.active a:hover,
+.secondary-bg .tabbable.style2 .tabber li.active a:focus,
+.secondary-bg .tabbable.style2 .tabber li.active a:active{
+	border-color:rgb(114, 158, 198);
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar,
+.work-it-contain:hover .work-it-icon i,
+.primary-bg,
+div.pp_default .pp_close:hover,
+.social-link i:hover,
+.social-link i:focus,
+.style1 .accordion-heading a:hover,
+.tabbable.style1 .tabber li a:hover
+.secondary-bg .style1 .accordion-heading a:hover,
+.secondary-bg .tabbable.style1 .tabber li a:hover{
+	background-color:rgb(114, 158, 198);
+}
+
+.home-wrapper{
+	background-color:rgba(68, 147, 233, 0.2); 
+}
+
+#home .btn:hover,
+.primary-bg .btn:hover,
+.btn-submit:hover,
+.text-link:hover,
+.text-link:focus,
+.primary-bg .style2 .accordion-heading a:hover,
+.primary-bg .tabbable.style2 .tabber li a:hover,
+.primary-bg .tabbable.style2 .tabber li.active a,
+.primary-bg .tabbable.style2 .tabber li.active a:hover,
+.primary-bg .tabbable.style2 .tabber li.active a:focus,
+.primary-bg .tabbable.style2 .tabber li.active a:active{
+	color:rgb(232, 236, 238);
+}
+
+.secondary-bg,
+.btn-arrow,
+.btn-arrow:hover,
+
+.work-it-text,
+.primary-bg .style1 .accordion-heading a:hover,
+.primary-bg .tabbable.style1 .tabber li a:hover{
+	background-color:rgb(232, 236, 238);  /*rgba(130, 165, 199, 0.34);  #f9bb3d; */
+}
+.work-it-icon{
+background-color:rgb(228, 232, 234);
+}
+#home .btn:hover,
+.primary-bg .btn:hover,
+.btn-submit:hover,
+.text-link:hover,
+.text-link:focus,
+.primary-bg .style2 .accordion-heading a:hover,
+.primary-bg .tabbable.style1 .tabber li a:hover,
+.primary-bg .tabbable.style2 .tabber li a:hover,
+.primary-bg .tabbable.style2 .tabber li.active a,
+.primary-bg .tabbable.style2 .tabber li.active a:hover,
+.primary-bg .tabbable.style2 .tabber li.active a:focus,
+.primary-bg .tabbable.style2 .tabber li.active a:active{
+	border-color:rgb(232, 236, 238);
+}
+
+.work-it-contain:hover .work-it-icon i {
+	background-color: #e8ecee !important;
+}
