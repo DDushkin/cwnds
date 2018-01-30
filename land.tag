@@ -130,12 +130,8 @@
     </section>
     <!-- End how it work -->
 
-    <section id="team" class="contain primary-bg">
+    <section id="team" class="contain dark-bg">
       <div class="container">
-        <div class="heading">
-          <h4>Запрошення</h4>
-
-        </div>
           <div class="row">
             <div class="col-md-8 mx-auto text-center">
               <img id="team-img" atl="" class="img-fluid rounded" src="img/gallery/team-{ opts.img }.jpg">
@@ -200,7 +196,7 @@
                     <h4 class="camps">Скільки коштує?</h4>
                     <p>
                       { opts.info3 }
-                      
+
                     </p>
                   </div>
                 </div>
@@ -279,15 +275,14 @@
             <div class="col-md-10 ">
               <h4>Приєднуйся до нас </h4>
               <p>
-                Для цього необхідно всього лише запонити форму перейшовши за посиланням нижче і ми обов'язково зв'яжемося з тобою. Якщо є якісь запитання, то подзвони нам або залиш своє повідомлення в кінці реєстрації. <br>Команда Cross Winds чекає
-                на тебе, до зустрічі влітку!
+                Для цього необхідно всього лише запонити форму перейшовши за посиланням нижче. Якщо є якісь запитання, то подзвони нам або надішли електронного листа. <br>Команда Cross Winds чекає на тебе, до зустрічі!
               </p>
               <div class="row justify-content-md-center">
                 <div class="col-md-8">
                   <!-- Start contact form -->
 
                   <a href="/enter.html"  class="btn btn-md">
-           Подати заявку
+           Зареєструватися
           </a>
                 </div>
                 <!-- End contack form -->
