@@ -9,11 +9,14 @@ html, body, #main, #main .row, #main .owl-carousel,  #main .owl-wrapper-outer,  
 #main .owl-item.active {  position: relative;   z-index: 1000;}
 #wrap {border: 5px solid #2d3d51; width: calc(100% - 100px); width: -webkit-calc(100% - 100px);  width: -moz-calc(100% - 100px);  width: -o-calc(100% - 100px);  width: -ms-calc(100% - 100px); height: calc(100% - 100px);  left: 50px;  top: 50px;  padding: 0;  margin: 0;  position: relative;}
 
-.img1 {background: url(../img/1.jpg) center no-repeat; background-size: cover; width: 100%;    height: 100%;}
-.img2 {background: url(../img/4.jpg) center no-repeat; background-size: cover; width: 100%;    height: 100%;}
-.img3 {background: url(../img/3.jpg) center no-repeat; background-size: cover; width: 100%;    height: 100%;}
-.img4 {background: url(../img/4.jpg) center no-repeat; background-size: cover; width: 100%;    height: 100%;}
-.img5 {background: url(../img/5.jpg) center no-repeat;  background-size: cover; width: 100%;    height: 100%;}
+.away-img {background: url(../img/c-away.jpg) center no-repeat; background-size: cover; width: 100%;    height: 100%;}
+.winter-img {background: url(../img/c-winter.jpg) center no-repeat; background-size: cover; width: 100%;    height: 100%;}
+.day-img {background: url(../img/c-day.jpg) center no-repeat; background-size: cover; width: 100%;    height: 100%;}
+.kids-img {background: url(../img/c-kids.jpg) center no-repeat; background-size: cover; width: 100%;    height: 100%;}
+.profile-img {background: url(../img/c-profile.jpg) center no-repeat;  background-size: cover; width: 100%;    height: 100%;}
+.contact-img {background: url(../img/c-contact.jpg) center no-repeat;  background-size: cover; width: 100%;    height: 100%;}
+.gallery-img {background: url(../img/c-gallery.jpg) center no-repeat;  background-size: cover; width: 100%;    height: 100%;}
+.about-img {background: url(../img/c-about.jpg) center no-repeat;  background-size: cover; width: 100%;    height: 100%;}
 
 figcaption h1 {
     font-size: 5vh;
@@ -185,27 +188,25 @@ figure.effect-milo:hover p {
     }
 @media (min-width: 1200px){
 
-  .blocks.social-last{
-    max-width: 14.7%;
-        flex-basis: 14.7%;
-  }
 
-  .blocks.social-last{
-    max-width: 14.7%;
-        flex-basis: 14.7%;
-  }
   .blocks.last h1{
     padding-right: 2.5em;
   }
-  .blocks.social-last h1{
-    padding-right: 44%
-  }
+
   .blocks figure .img {
   	position: relative;
   	display: block;
   	min-height: 100%;
-  	max-width: 100%;
   	opacity: 0.8;
+  }
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape){
+
+  .row.second.active figcaption{
+    transform: translateX(-5%);
   }
 }
 @media (min-width: 993px ) and (orientation:landscape){
@@ -302,7 +303,12 @@ figure.effect-milo:hover p, .wide figure.effect-milo:hover p {
     -webkit-transform: translate3d(0,3vh,0);
     transform: translate3d(0,10vw,0);
     font-size: 5vw;
+  }
 }
+@media (max-width: 769px){
+  .social-last.last{padding-left: 0;padding-right: 15px;}
+  .social-last{padding-right: 0;padding-left: 15px;}
+
 }
 @media (max-width: 576px){
 	#wrap{
@@ -311,6 +317,8 @@ figure.effect-milo:hover p, .wide figure.effect-milo:hover p {
 	.blocks figure .img {
         height: 210px;
 }
+.social-last.last{padding-left: 0;padding-right: 0;}
+.social-last{padding-right: 0;padding-left: 0;}
   .blocks{
     padding: 0;
   }

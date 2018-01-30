@@ -4,7 +4,6 @@
       <div class="main-header">
         <figure class="img-profile">
           <img src="img/profile.jpg" alt="">
-          <figcaption class="name-profile">
           </figcaption>
         </figure>
         <nav id="main-nav" class="main-nav clearfix tabbed">
