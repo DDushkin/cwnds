@@ -14,24 +14,14 @@
                 </div>
                 <figcaption>
                   <h1>Cross Winds <span class="d-block" >Виїздний</span></h1>
-                  <p><span class="d-block">21.07.2017</span><span class="d-block">21.07.1997</span></p>
+                  <p><span class="d-block">14.07.2018</span><span class="d-block">21.07.2018</span></p>
                   <p class="age"><span class="d-block">15 - 20 років</span></p>
                   <a data-name="away" onclick="return opener(this);" >View more</a>
                 </figcaption>
               </figure>
             </div>
-            <div class="col-xl-4 col-lg-12 blocks ">
-              <figure class="effect-milo">
-                <div class="img kids-img">
-                </div>
-                <figcaption>
-                  <h1>Enjoy <span class="d-block">Дитячий</span></h1>
-                  <p><span class="d-block">21.07.2017</span><span class="d-block">21.07.1997</span></p>
-                  <p class="age"><span class="d-block">7 - 14 років</span></p>
-                  <a data-name="kids" >View more</a>
-                </figcaption>
-              </figure>
-            </div>
+
+
 
             <div class="col-xl-4 col-lg-12 blocks ">
               <figure class="effect-milo">
@@ -39,21 +29,9 @@
                 </div>
                 <figcaption>
                   <h1>Cross Winds <span class="d-block">Денний</span></h1>
-                  <p><span class="d-block">21.07.2017</span><span class="d-block">21.07.1997</span></p>
+                  <p><span class="d-block">??.??.2018</span><span class="d-block">??.??.2018</span></p>
                   <p class="age"><span class="d-block">15 - 20 років</span></p>
                   <a data-name="day" >View more</a>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="col-xl-4 col-lg-12 blocks ">
-              <figure class="effect-milo">
-                <div class="img winter-img">
-                </div>
-                <figcaption>
-                  <h1>Cross Winds <span class="d-block">Зимовий</span></h1>
-                  <p><span class="d-block">21.07.2017</span><span class="d-block">21.07.1997</span></p>
-                  <p class="age"><span class="d-block">15 - 20 років</span></p>
-                  <a data-name="winter" >View more</a>
                 </figcaption>
               </figure>
             </div>
@@ -68,7 +46,30 @@
                 </figcaption>
               </figure>
             </div>
-
+            <div class="col-xl-4 col-lg-12 blocks ">
+              <figure class="effect-milo">
+                <div class="img winter-img">
+                </div>
+                <figcaption>
+                  <h1>Cross Winds <span class="d-block">Зимовий</span></h1>
+                  <p><span class="d-block">02.01.2018</span><span class="d-block">07.01.2018</span></p>
+                  <p class="age"><span class="d-block">15 - 20 років</span></p>
+                  <a data-name="winter" >View more</a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col-xl-4 col-lg-12 blocks ">
+              <figure class="effect-milo">
+                <div class="img kids-img">
+                </div>
+                <figcaption>
+                  <h1>Enjoy <span class="d-block">Дитячий</span></h1>
+                  <p><span class="d-block">??.??.2018</span><span class="d-block">??.??.2018</span></p>
+                  <p class="age"><span class="d-block">7 - 14 років</span></p>
+                  <a data-name="kids" >View more</a>
+                </figcaption>
+              </figure>
+            </div>
             <div class="go_next"></div>
           </div>
           <div class="row second">

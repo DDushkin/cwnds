@@ -94,13 +94,13 @@ figure.effect-milo {
 
 figure.effect-milo .img {
 	max-width: none;
-	width: -webkit-calc(100% + 60px);
-	width: calc(100% + 60px);
+	width: -webkit-calc(100% + 30px);
+	width: calc(100% + 30px);
 	opacity: 0.8;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-30px,0,0) scale(1.12);
-	transform: translate3d(-30px,0,0) scale(1.12);
+	-webkit-transform: translate3d(30px,0,0) scale(1.1);
+	transform: translate3d(30px,0,0) scale(1.1);
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
