@@ -13,7 +13,7 @@
                 <div class="img away-img">
                 </div>
                 <figcaption>
-                  <h1>Cross Winds <span class="d-block" >Виїздний</span></h1>
+                  <h1>Cross Winds <span class="d-block" >Виїзний</span></h1>
                   <p><span class="d-block">14.07.2018</span><span class="d-block">21.07.2018</span></p>
                   <p class="age"><span class="d-block">15 - 20 років</span></p>
                   <a data-name="away" onclick="return opener(this);" >View more</a>
@@ -87,14 +87,16 @@
             </div>
             <div class="col-xl-6 col-lg-12 blocks last">
               <figure class="effect-milo">
-                <div class="img contact-img">
+                <div class="img about-img">
                 </div>
                 <figcaption>
-                  <h1>Contacts <span class="d-block">Контакти</span></h1>
+                  <h1>About us <span class="d-block">Про нас</span></h1>
+
                   <a >View more</a>
                 </figcaption>
               </figure>
             </div>
+
             <div class="col-xl-4 col-lg-12 col-6 blocks social-last">
               <figure class="effect-milo">
                 <div class="img facebook-img">
@@ -105,13 +107,12 @@
                 </figcaption>
               </figure>
             </div>
-            <div class="col-xl-4 col-lg-12 blocks">
+            <div class="col-xl-4 col-lg-12 blocks ">
               <figure class="effect-milo">
-                <div class="img about-img">
+                <div class="img contact-img">
                 </div>
                 <figcaption>
-                  <h1>About us <span class="d-block">Про нас</span></h1>
-
+                  <h1>Contacts <span class="d-block">Контакти</span></h1>
                   <a >View more</a>
                 </figcaption>
               </figure>
