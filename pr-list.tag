@@ -9,7 +9,7 @@
       <!--Main title-->
 
       <div class="main-title">
-        <h1 class="zigzag">Заїзди на які ти подав заявку</h1>
+        <h1 class="zigzag">Заїзди на які ти зареєстрований</h1>
       </div>
 
       <!--End main title-->
@@ -37,7 +37,7 @@
                       <th scope="col">Назва заїзду</th>
                       <th scope="col">Дата початку</th>
                       <th scope="col">Ціна</th>
-                      <th scope="col">Оплата</th>
+                      <th scope="col">Оплачено</th>
                     </tr>
                   </thead>
                   <tbody> <!--  Если убрать блоки <tr> там не будет data-camp=, то покажется алерт "Вы еще не зарегестрированы" -->

@@ -68,9 +68,9 @@
                         </span>
                       </li>
                       <li>
-                        <span class="inf">Адреса</span>
+                        <span class="inf">Місто</span>
                         <span class="value">
-                          <input class="form-control" name="addr" type="text" value="1234 Street Road City Name" onchange="validate();" required>
+                          <input class="form-control" name="addr" type="text" value="Боярка" onchange="validate();" required>
                           <div class="invalid-tooltip">
                             Заповни це поле.
                           </div>
@@ -173,7 +173,7 @@
         <!--End block content-->
         <!--Row-->
         <div class="row my-4 info-camp-block">
-          <div class="alert alert-primary col-12 alert-dismissible fade show" role="alert">
+          <div class="alert alert-warning col-12 alert-dismissible fade show" role="alert">
 
             <p><strong>Зверни увагу!</strong> Для того, щоб прийняти участь у заїзді табору:</p>
             <ul>
