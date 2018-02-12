@@ -50,7 +50,7 @@
                   <i class="fa fa-bullhorn"></i>
                 </div>
                 <div class="work-it-text ">
-                  <h5>УРОКИ АНГЛІЙСЬКОЇ</h5>
+                  <h5>{ opts.offername1 }</h5>
                   <p>
                     { opts.offer1 }
 
@@ -63,7 +63,7 @@
                   <i class="fa fa-comments-o"></i>
                 </div>
                 <div class="work-it-text ">
-                  <h5>АКТУАЛЬНІ ТЕМИ</h5>
+                  <h5>{ opts.offername2 }</h5>
                   <p>
                     { opts.offer2 }
 
@@ -76,7 +76,7 @@
                   <i class="fa fa-group"></i>
                 </div>
                 <div class="work-it-text ">
-                  <h5>НОВІ ДРУЗІ</h5>
+                  <h5>{ opts.offername3 }</h5>
                   <p>
                     { opts.offer3 }
 
@@ -89,7 +89,7 @@
                   <i class=" fa fa-rocket"></i>
                 </div>
                 <div class="work-it-text ">
-                  <h5>МАЙСТЕР-КЛАСИ ТА СТУДІЇ</h5>
+                  <h5>{ opts.offername4 }</h5>
                   <p>
                     { opts.offer4 }
 
@@ -101,7 +101,7 @@
                   <i class=" fa fa-trophy"></i>
                 </div>
                 <div class="work-it-text ">
-                  <h5>ЗМАГАННЯ</h5>
+                  <h5>{ opts.offername5 }</h5>
                   <p>
                     { opts.offer5 }
                   </p>
@@ -113,7 +113,7 @@
                   <i class=" fa fa-star"></i>
                 </div>
                 <div class="work-it-text ">
-                  <h5>Шоу талантів</h5>
+                  <h5>{ opts.offername6 }</h5>
                   <p>
                     { opts.offer6 }
 
