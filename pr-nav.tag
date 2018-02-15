@@ -2,10 +2,12 @@
 
     <header id="header">
       <div class="main-header">
-        <figure class="img-profile">
-          <img src="img/profile.jpg" alt="">
+        <figure class="img-profile" onclick="return changePhoto();">
+          <img style="width: 100%;" src="img/profile-img.png" alt="" title="Замінити картинку профілю">
+          <i class="fa fa-upload fa-5x"></i>
           </figcaption>
         </figure>
+        <input id="uploadfile" type="file">
         <nav id="main-nav" class="main-nav clearfix tabbed">
           <ul>
             <li>

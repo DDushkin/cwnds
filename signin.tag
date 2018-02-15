@@ -12,7 +12,7 @@
                 <input type="password" class="form-control" name="text" placeholder="Пароль..." required>
               </div>
               <div class="footer text-center">
-                <a href="" class="btn btn-neutral btn-round btn-lg">Увійти</a>
+                <button class="btn btn-neutral btn-round btn-lg">Увійти</button>
               </div>
               <a href="/profile.html"><small id="emailHelp" class="form-text text-muted text-center">Забули пароль?</small></a>
             </div>  <!--Убрать ссылку выше-->

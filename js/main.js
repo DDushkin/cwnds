@@ -10,7 +10,6 @@
   });
 }
 
-
 $( window ).resize(function() {
   var c_m = $('.owl-carousel');
   if((window.innerHeight > window.innerWidth) || (window.innerWidth < 993)){

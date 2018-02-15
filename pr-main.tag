@@ -70,7 +70,7 @@
                       <li>
                         <span class="inf">Місто</span>
                         <span class="value">
-                          <input class="form-control" name="addr" type="text" value="Боярка" onchange="validate();" required>
+                          <input class="form-control" name="addr" type="text" value="Боярка"  onchange="validate();" required>
                           <div class="invalid-tooltip">
                             Заповни це поле.
                           </div>
@@ -79,7 +79,7 @@
                       <li>
                         <span class="inf">Email</span>
                         <span class="value">
-                          <input class="form-control" name="mail" type="text" value="youremail@gmail.com" onchange="validate();" required>
+                          <input class="form-control" name="mail" type="text" value=""  onchange="validate();" required>
                           <div class="invalid-tooltip">
                             Заповни це поле.
                           </div>
@@ -96,16 +96,34 @@
                       <li>
                         <span class="inf">Мій телефон</span>
                         <span class="value">
-                          <input class="form-control" name="tel" type="text" value="+ 123 456 789 456" onchange="validate();" required>
+                          <input class="form-control" name="tel" type="text" value=""  onchange="validate();" required>
                           <div class="invalid-tooltip">
                             Заповни це поле.
                           </div>
                         </span>
                       </li>
                       <li>
-                        <span class="inf">Телефон батьків</span>
+                        <span class="inf">Контактна особа</span>
                         <span class="value">
-                          <input class="form-control" name="pTel" type="text" value="+ 123 456 789 456" onchange="validate();" required>
+                          <input class="form-control" name="pTel" type="text" value=""  onchange="validate();" required>
+                          <div class="invalid-tooltip">
+                            Заповни це поле.
+                          </div>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="inf">Ім'я особи</span>
+                        <span class="value">
+                          <input class="form-control" name="pTel" type="text" value="" onchange="validate();" required>
+                          <div class="invalid-tooltip">
+                            Заповни це поле.
+                          </div>
+                        </span>
+                      </li>
+                      <li>
+                        <span class="inf">Телефон особи</span>
+                        <span class="value">
+                          <input class="form-control" name="pTel" type="text" value=""  onchange="validate();" required>
                           <div class="invalid-tooltip">
                             Заповни це поле.
                           </div>
@@ -127,34 +145,7 @@
                           </div>
                         </span>
                       </li>
-                      <li>
-                        <span class="inf">Студія №1</span>
-                        <span class="value">
-                          <select class="custom-select" name="mk1" onchange="validate();" required>
-                            <option value="">Майстер-клас не обрано</option>
-                            <option value="mk1">МК1</option>
-                            <option value="mk2">МК2</option>
-                            <option value="mk3">МК3</option>
-                          </select>
-                          <div class="invalid-tooltip">
-                            Заповни це поле.
-                          </div>
-                        </span>
-                      </li>
-                      <li>
-                        <span class="inf">Студія №2</span>
-                        <span class="value">
-                          <select class="custom-select" name="mk2" onchange="validate();" required>
-                            <option value="">Майстер-клас не обрано</option>
-                            <option value="mk4">МК4</option>
-                            <option value="mk5">МК5</option>
-                            <option value="mk6">МК6</option>
-                          </select>
-                          <div class="invalid-tooltip">
-                            Заповни це поле.
-                          </div>
-                        </span>
-                      </li>
+
                     </ul>
 
                   </div>
