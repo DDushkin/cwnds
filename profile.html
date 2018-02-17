@@ -107,9 +107,10 @@
       $(".mainBlock").hide();  $("#contact").show(); $(".prNav").removeClass("active"); $("[data-name=contact]").addClass("active");
     }
 
-    function subscribe(){
+    function subscribe(el){
+      var n = $(el).data("type");
+      $('input[name="typeOfCamp"]').val(n);
       $('.privatInfo fieldset').removeAttr('disabled');
-      $(".info-camp-block .alert").alert('close')
       $(".subscribe-btn").removeClass('d-none');
       top = $("#main").offset().top;
       $('body,html').animate({scrollTop: top}, 1500);

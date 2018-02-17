@@ -152,6 +152,7 @@
 
                 </div>
                 <div class="text-center my-3 d-none subscribe-btn">
+                  <input name="typeOfCamp" type="hidden" value=""  required>
                   <a href="#" class="btn btn-default btn-lg">Підтвердити</a>
                 </div>
               </fieldset>
@@ -217,6 +218,7 @@
                     </span>
                     <h4 class="card-title">Cross Winds - Day camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" data-type="day" class="btn btn-default text-uppercase" onclick="subscribe(this); validate();">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
@@ -231,7 +233,7 @@
                     </span>
                     <h4 class="card-title">Cross Winds - Away camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-default text-uppercase" onclick="subscribe(); validate();">Хочу поїхати!</a>
+                    <a href="#" data-type="away" class="btn btn-default text-uppercase" onclick="subscribe(this); validate();">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
@@ -265,6 +267,7 @@
                     </span>
                     <h4 class="card-title">Cross Winds - Winter camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" data-type="winter" class="btn btn-default text-uppercase" onclick="subscribe(this); validate();">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
@@ -279,6 +282,7 @@
                     </span>
                     <h4 class="card-title">Enjoy - Kids camp</h4>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" data-type="kids" class="btn btn-default text-uppercase" onclick="subscribe(this); validate();">Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
