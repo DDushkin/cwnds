@@ -8,7 +8,7 @@
 
     <!--Main title-->
     <div class="main-title">
-      <h1 class="zigzag">contact info</h1>
+      <h1 class="zigzag">Як з нами зв'язатись</h1>
 
     </div>
     <!--End main title-->
