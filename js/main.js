@@ -56,12 +56,65 @@ $(document).on('opened', '.remodal', function (e) {
       slideSpeed: 700
     }
   );
+  $(function(){
+    var $gallery = $('.gallery a').simpleLightbox({
+      history: false
+    });
+
+    $gallery.on('show.simplelightbox', function(){
+      console.log('Requested for showing');
+    })
+    .on('shown.simplelightbox', function(){
+      console.log('Shown');
+    })
+    .on('close.simplelightbox', function(){
+      console.log('Requested for closing');
+    })
+    .on('closed.simplelightbox', function(){
+      console.log('Closed');
+    })
+    .on('change.simplelightbox', function(){
+      console.log('Requested for change');
+    })
+    .on('next.simplelightbox', function(){
+      console.log('Requested for next');
+    })
+    .on('prev.simplelightbox', function(){
+      console.log('Requested for prev');
+    })
+    .on('nextImageLoaded.simplelightbox', function(){
+      console.log('Next image loaded');
+    })
+    .on('prevImageLoaded.simplelightbox', function(){
+      console.log('Prev image loaded');
+    })
+    .on('changed.simplelightbox', function(){
+      console.log('Image changed');
+    })
+    .on('nextDone.simplelightbox', function(){
+      console.log('Image changed to next');
+    })
+    .on('prevDone.simplelightbox', function(){
+      console.log('Image changed to prev');
+    })
+    .on('error.simplelightbox', function(e){
+      console.log('No image found, go to the next/prev');
+      console.log(e);
+    });
+  });
+
 });
 
+function active(el) {
+
+  $(el).toggleClass('active');
+};
 
 function opener(el){
   var n = $(el).data("name");
   switch (n) {
+    case 'gallery': riot.mount('gallery'); var i = $('[data-remodal-id=gallery]').remodal();
+                                break;
     case 'kids': riot.mount('land', {title: 'Kids camp',
                                     subtitle: 'Seek and you will find',
                                     img: 'kids',
@@ -81,7 +134,7 @@ function opener(el){
                                     info1: 'Виїзний дитячий табір на базі с. Бузовка Жашківського р-н.',
                                     info2: 'Буде проходити з 16 по 23 червня 2018 року',
                                     info3: '???'
-                                  });
+                                  }); var i = $('[data-remodal-id=land]').remodal();
                                 break;
     case 'winter': riot.mount('land', {title: 'Winter camp',
                                       subtitle: 'crossind borders to new discoveries',
@@ -102,7 +155,7 @@ function opener(el){
                                       info1: 'Денний табір на базі Боярської школи №5  ( + команда з 18-ти американців)',
                                       info2: 'Буде проходити з 12 по 17 червня (6 днів)',
                                       info3: '700 грн. (включно з обідом та снеками)'
-                                    });
+                                    }); var i = $('[data-remodal-id=land]').remodal();
                                   break;
     case 'away': riot.mount('land', {title: 'Away camp',
                                     subtitle: 'crossind borders to new discoveries',
@@ -123,7 +176,7 @@ function opener(el){
                                     info1: 'Виїзний табір на базі с.Скригалівка Фастівський р-н ( + команда з 12-ти американців)',
                                     info2: 'Буде проходити з 14 по 21 липня (8 днів)',
                                     info3: '2900 грн. (включно з обідом та снеками)'
-                                  });
+                                  }); var i = $('[data-remodal-id=land]').remodal();
                                 break;
     case 'day': riot.mount('land', {title: 'Day camp',
                                     subtitle: 'crossind borders to new discoveries',
@@ -144,9 +197,9 @@ function opener(el){
                                     info1: 'Денний табір на базі Боярської школи №5  ( + команда з 18-ти американців)',
                                     info2: 'Буде проходити з 2 по 7 липня (6 днів)',
                                     info3: '800 грн. (включно з обідом, вечерею та снеками)'
-                                  });
+                                  }); var i = $('[data-remodal-id=land]').remodal();
                                 break;
   }
-  var i = $('[data-remodal-id=land]').remodal();
+
   i.open();
 }

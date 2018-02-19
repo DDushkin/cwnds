@@ -416,6 +416,101 @@ Testimonials
 }
 
 /*
+Portfolio
+=========================== */
+.portfolio-categ{
+	float:left;
+	width: 100%;
+	    text-align: center;
+	    margin: 0 0 10px 0;
+	    padding: 0;
+}
+.portfolio-item {
+    margin-bottom: 30px;
+}
+.portfolio-categ li{
+	display:inline-block;
+	list-style:none;
+	    margin: 0 3px 30px 2px;
+	padding:0;
+}
+
+.portfolio-categ li a{
+	border:3px solid #1b2838;
+	color:#1b2838;
+	border-radius:40px;
+	padding:5px 20px 5px 20px;
+	font-size:18px;
+	line-height:22px;
+	font-weight:700;
+	cursor: pointer;
+	position: relative;
+}
+
+.portfolio-categ li a:hover,
+.portfolio-categ li.active a,
+.portfolio-categ li.active a:hover{
+	text-decoration:none;
+}
+
+.portfolio-area{
+	width:100%;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+.portfolio-categ li.active a{
+	color: #e8ecee;
+	background-color: #729ec6;
+	transition: all .3s ease-in-out;
+}
+.portfolio-categ li.active a:hover{
+	color: #e8ecee;
+	background-color: #729ec6;
+}
+.portfolio-categ li a:before {
+	font-family: Arial,"Helvetica CY","Nimbus Sans L",sans-serif!important;
+  font-size: 19px;
+  line-height: 15px;
+  content: "\00d7";
+  text-align: center;
+  position: absolute;
+  bottom: 26%;
+  right: 6px;
+  display: block;
+  width: 11px;
+  color: #e8ecee;
+	}
+
+.image-wrapper{
+	position:relative;
+	overflow: hidden;
+	border-radius:20px;
+	box-shadow:0 10px 0 rgba(0, 0, 0, 0.75);
+}
+
+.img-gallery{
+	display:block;
+	width:100%;
+	height:auto;
+}
+
+
+
+.image-caption .zoom:hover,
+.image-caption .zoom:focus{
+	text-decoration:none;
+}
+
+
+.image-title a,
+.image-title a:hover,
+.image-title a:focus{
+	color:#fff;
+}
+
+
+/*
 Ticker
 =========================== */
 ul.ticker{

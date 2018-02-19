@@ -81,7 +81,7 @@
                 <figcaption>
                   <h1>Gallery <span class="d-block">Галерея</span></h1>
 
-                  <a >View more</a>
+                  <a data-name="gallery" onclick="return opener(this);" >View more</a>
                 </figcaption>
               </figure>
             </div>
