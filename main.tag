@@ -21,8 +21,6 @@
               </figure>
             </div>
 
-
-
             <div class="col-xl-4 col-lg-12 blocks ">
               <figure class="effect-milo">
                 <div class="img day-img">
@@ -40,13 +38,13 @@
                 <div class="img profile-img">
                 </div>
                 <figcaption>
-                  <h1>Profile <span class="d-block">Особиста сторінка</span></h1>
+                  <h1>Register now<span class="d-block">Реєстрація</span></h1>
 
-                  <a href="/enter.html">View more</a>
+                  <a data-name="registration" data-where="else" onclick="return opener(this);">View more</a>
                 </figcaption>
               </figure>
             </div>
-            <div class="col-xl-4 col-lg-12 blocks ">
+            <div class="col-xl-4 col-lg-12 blocks inactive">
               <figure class="effect-milo">
                 <div class="img winter-img">
                 </div>
@@ -85,7 +83,7 @@
                 </figcaption>
               </figure>
             </div>
-            <div class="col-xl-6 col-lg-12 blocks last">
+            <div class="col-xl-6 col-lg-12 blocks last inactive">
               <figure class="effect-milo">
                 <div class="img about-img">
                 </div>
@@ -103,11 +101,11 @@
                 </div>
                 <figcaption>
                   <h1><i class="fa fa-facebook"></i></h1>
-                  <a href="https://www.facebook.com/crosswinds.ukraine/" target="_blank">View more</a>
+                  <a href="https://www.facebook.com/crosswinds.ukraine/" target="_blank" rel="noopener">View more</a>
                 </figcaption>
               </figure>
             </div>
-            <div class="col-xl-4 col-lg-12 blocks ">
+            <div class="col-xl-4 col-lg-12 blocks inactive">
               <figure class="effect-milo">
                 <div class="img contact-img">
                 </div>
@@ -124,7 +122,7 @@
                 <figcaption>
                   <h1><i class="fa fa-instagram"></i></h1>
 
-                  <a href="https://www.instagram.com/cross_winds_camp/" target="_blank">View more</a>
+                  <a href="https://www.instagram.com/cross_winds_camp/" target="_blank" rel="noopener">View more</a>
                 </figcaption>
               </figure>
             </div>

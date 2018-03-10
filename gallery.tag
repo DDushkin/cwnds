@@ -5,7 +5,7 @@
     <button data-remodal-action="close" class="remodal-close md-close"></button>
 
     <!-- Start home -->
-    <section id="home" style="background-image:url(../img/bg-away.jpg)">
+    <section id="home" style="background-image:url(../img/bg-gallery.jpg)">
       <div class="home-wrapper">
         <div class="container">
           <div class="row text-center justify-content-md-center">
@@ -85,7 +85,7 @@
                 <div class="col-md-8">
                   <!-- Start contact form -->
 
-                  <a href="/enter.html"  class="btn btn-md">
+                  <a data-name="registration" data-where="else" onclick="return opener(this);"  class="btn btn-md">
                    Зареєструватися
                   </a>
                 </div>
@@ -188,7 +188,7 @@ this.items = [
                  { url: '2017/away/18', year: '2017', type: 'away' },
                   { url: '2017/away/19', year: '2017', type: 'away' },
                    { url: '2017/away/20', year: '2017', type: 'away' },
-                    { url: '2017/away/21', year: '2017', type: 'away' },
+                    
 { url: '2016/1', year: '2016', type: 'away' },
  { url: '2016/2', year: '2016', type: 'away' },
   { url: '2016/3', year: '2016', type: 'away' },

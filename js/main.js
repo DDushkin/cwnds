@@ -110,9 +110,87 @@ function active(el) {
   $(el).toggleClass('active');
 };
 
+
+function submitAjx(el) {
+var formID = $(el).data("where");
+var formNm = $('#form-' + formID);
+
+  $.ajax({
+    type: "POST",
+    url: '_post.php',
+    data: formNm.serialize(),
+      success: function () {
+      // ?????? ????? ????
+        $('#form-wra').fadeOut();
+        $('#registr').fadeIn()
+
+      },
+      error: function (jqXHR, text, error) {
+      // ?????? ??? ????
+
+      }
+    });
+  return false;
+}
+
+
+
 function opener(el){
   var n = $(el).data("name");
+  var w = $(el).data("where");
   switch (n) {
+    case 'registration':
+          switch (w) {
+            case 'kids': riot.mount('registration', {
+              cName: 'Реєстрація ще не почалась',
+              cNameE: 'kids',
+              isVisibleCards: 'none',
+              isVisibleBlock: 'flex',
+              isVisibleForm: 'none'
+              });
+              var inst = $('[data-remodal-id=gallery], [data-remodal-id=land]').remodal();
+              inst.destroy();
+                                        break;
+            case 'winter': riot.mount('registration', {
+              cName: 'Реєстрацію завершено',
+              cNameE: 'winter',
+              isVisibleCards: 'none',
+              isVisibleBlock: 'flex',
+              isVisibleForm: 'none'
+              });
+              var inst = $('[data-remodal-id=gallery], [data-remodal-id=land]').remodal();
+              inst.destroy();
+                                          break;
+            case 'away': riot.mount('registration', {
+              cName: 'Подача заявки у виїздний табір',
+              cNameE: 'away',
+              isVisibleCards: 'none',
+              isVisibleBlock: 'flex'
+              });
+              var inst = $('[data-remodal-id=gallery], [data-remodal-id=land]').remodal();
+              inst.destroy();
+                                        break;
+            case 'day': riot.mount('registration', {
+              cName: 'Подача заявки на дений табір',
+              cNameE: 'day',
+              isVisibleCards: 'none',
+              isVisibleBlock: 'flex'
+              });
+              var inst = $('[data-remodal-id=gallery], [data-remodal-id=land]').remodal();
+              inst.destroy();
+                                        break;
+            case 'else': riot.mount('registration', {
+              cName: 'Подача заявки в табір',
+              cNameE: '',
+              isVisibleBlock: 'none',
+              isVisibleCards: 'flex'
+              });
+                                        break;
+          }
+
+          var i = $('[data-remodal-id=registration]').remodal();
+
+                                break;
     case 'gallery': riot.mount('gallery'); var i = $('[data-remodal-id=gallery]').remodal();
                                 break;
     case 'kids': riot.mount('land', {title: 'Kids camp',
@@ -133,7 +211,8 @@ function opener(el){
                                     offer6: 'Ваша дитина хоче співати, танцювати чи займатися іншою творчістю? Наш табір чудовий майданчик для того щоб проявити та розвинути свої здібності.',
                                     info1: 'Виїзний дитячий табір на базі с. Бузовка Жашківського р-н.',
                                     info2: 'Буде проходити з 16 по 23 червня 2018 року',
-                                    info3: '???'
+                                    info3: '???',
+                                    where: 'kids'
                                   }); var i = $('[data-remodal-id=land]').remodal();
                                 break;
     case 'winter': riot.mount('land', {title: 'Winter camp',
@@ -154,11 +233,12 @@ function opener(el){
                                       offer6: 'Хочеш стати зіркою? Наш небозвід відкритий для тебе. В кінці кожного заїзду ми проводимо талант шоу, де кожен може показати все, що вміє.',
                                       info1: 'Денний табір на базі Боярської школи №5  ( + команда з 18-ти американців)',
                                       info2: 'Буде проходити з 12 по 17 червня (6 днів)',
-                                      info3: '700 грн. (включно з обідом та снеками)'
+                                      info3: '700 грн. (включно з обідом та снеками)',
+                                      where: 'winter'
                                     }); var i = $('[data-remodal-id=land]').remodal();
                                   break;
     case 'away': riot.mount('land', {title: 'Away camp',
-                                    subtitle: 'crossind borders to new discoveries',
+                                    subtitle: 'crossing borders to new discoveries',
                                     img: 'away',
                                     text1: 'Ти втомився гребти та шукаєш попутний вітер? Табір Cross Winds - ковток свіжого повітря для твоїх вітрил. Ми допоможемо тобі побачити наскільки яскравим може бути життя на фоні сірих буднів. Ми пропонуємо тобі:',
                                     offername1: 'УРОКИ АНГЛІЙСЬКОЇ',
@@ -175,12 +255,13 @@ function opener(el){
                                     offer6: 'Хочеш стати зіркою? Наш небозвід відкритий для тебе. В кінці кожного заїзду ми проводимо талант шоу, де кожен може показати все, що вміє.',
                                     info1: 'Виїзний табір на базі с.Скригалівка Фастівський р-н ( + команда з 12-ти американців)',
                                     info2: 'Буде проходити з 14 по 21 липня (8 днів)',
-                                    info3: '2900 грн. (включно з обідом та снеками)'
+                                    info3: '3000 грн. (включно з обідом та снеками)',
+                                    where: 'away'
                                   }); var i = $('[data-remodal-id=land]').remodal();
                                 break;
     case 'day': riot.mount('land', {title: 'Day camp',
-                                    subtitle: 'crossind borders to new discoveries',
-                                    img: 'away',
+                                    subtitle: 'crossing borders to new discoveries',
+                                    img: 'day',
                                     text1: 'Ти втомився гребти та шукаєш попутний вітер? Табір Cross Winds - ковток свіжого повітря для твоїх вітрил. Ми допоможемо тобі побачити наскільки яскравим може бути життя на фоні сірих буднів. Ми пропонуємо тобі:',
                                     offername1: 'УРОКИ АНГЛІЙСЬКОЇ',
                                     offer1: 'Думаєш, що вивчення англійської - це нудно? Наші заняття знищать твої стереотипи. Пропонуємо спеціально розроблені нашими вчителями уроки англійської мови, а також практику розмовної мови з командою американців.',
@@ -196,7 +277,8 @@ function opener(el){
                                     offer6: 'Хочеш стати зіркою? Наш небозвід відкритий для тебе. В кінці кожного заїзду ми проводимо талант шоу, де кожен може показати все, що вміє.',
                                     info1: 'Денний табір на базі Боярської школи №5  ( + команда з 18-ти американців)',
                                     info2: 'Буде проходити з 2 по 7 липня (6 днів)',
-                                    info3: '800 грн. (включно з обідом, вечерею та снеками)'
+                                    info3: '900 грн. (включно з обідом, вечерею та снеками)',
+                                    where: 'day'
                                   }); var i = $('[data-remodal-id=land]').remodal();
                                 break;
   }

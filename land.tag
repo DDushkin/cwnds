@@ -281,7 +281,7 @@
                 <div class="col-md-8">
                   <!-- Start contact form -->
 
-                  <a href="/enter.html"  class="btn btn-md">
+                  <a data-name="registration" data-where="{ opts.where }" onclick="return opener(this);"  class="btn btn-md">
            Зареєструватися
           </a>
                 </div>
