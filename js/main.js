@@ -111,6 +111,7 @@ function active(el) {
 };
 
 
+
 function submitAjx(el) {
 var formID = $(el).data("where");
 var formNm = $('#form-' + formID);
@@ -142,11 +143,11 @@ function opener(el){
     case 'registration':
           switch (w) {
             case 'kids': riot.mount('registration', {
-              cName: 'Реєстрація ще не почалась',
+              cName: 'Подача заявки на дитячий табір',
               cNameE: 'kids',
               isVisibleCards: 'none',
-              isVisibleBlock: 'flex',
-              isVisibleForm: 'none'
+              isVisibleBlock: 'flex'
+              
               });
               var inst = $('[data-remodal-id=gallery], [data-remodal-id=land]').remodal();
               inst.destroy();
@@ -211,7 +212,7 @@ function opener(el){
                                     offer6: 'Ваша дитина хоче співати, танцювати чи займатися іншою творчістю? Наш табір чудовий майданчик для того щоб проявити та розвинути свої здібності.',
                                     info1: 'Виїзний дитячий табір на базі с. Бузовка Жашківського р-н.',
                                     info2: 'Буде проходити з 16 по 23 червня 2018 року',
-                                    info3: '???',
+                                    info3: '2800 грн.',
                                     where: 'kids'
                                   }); var i = $('[data-remodal-id=land]').remodal();
                                 break;

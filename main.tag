@@ -15,7 +15,7 @@
                 <figcaption>
                   <h1>Cross Winds <span class="d-block" >Виїзний</span></h1>
                   <p><span class="d-block">14.07.2018</span><span class="d-block">21.07.2018</span></p>
-                  <p class="age"><span class="d-block">15 - 20 років</span></p>
+                  <p class="age"><span class="d-block">14 - 20 років</span></p>
                   <a data-name="away" onclick="return opener(this);" >View more</a>
                 </figcaption>
               </figure>
@@ -28,7 +28,7 @@
                 <figcaption>
                   <h1>Cross Winds <span class="d-block">Денний</span></h1>
                   <p><span class="d-block">02.07.2018</span><span class="d-block">07.07.2018</span></p>
-                  <p class="age"><span class="d-block">15 - 20 років</span></p>
+                  <p class="age"><span class="d-block">14 - 20 років</span></p>
                   <a data-name="day" onclick="return opener(this);" >View more</a>
                 </figcaption>
               </figure>
@@ -51,7 +51,7 @@
                 <figcaption>
                   <h1>Cross Winds <span class="d-block">Зимовий</span></h1>
                   <p><span class="d-block">02.01.2018</span><span class="d-block">07.01.2018</span></p>
-                  <p class="age"><span class="d-block">15 - 20 років</span></p>
+                  <p class="age"><span class="d-block">14 - 20 років</span></p>
                   <a data-name="winter" >View more</a>
                 </figcaption>
               </figure>
@@ -63,7 +63,7 @@
                 <figcaption>
                   <h1>Enjoy <span class="d-block">Дитячий</span></h1>
                   <p><span class="d-block">16.06.2018</span><span class="d-block">23.06.2018</span></p>
-                  <p class="age"><span class="d-block">7 - 14 років</span></p>
+                  <p class="age"><span class="d-block">8 - 13 років</span></p>
                   <a data-name="kids" onclick="return opener(this);">View more</a>
                 </figcaption>
               </figure>

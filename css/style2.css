@@ -617,12 +617,11 @@ Heading
 	margin:0;
 }
 
-.heading h4,
-.headline h4{
-	background:url(../img/heading-bg.png) no-repeat bottom center;
-	padding-bottom:20px;
-	font-size:48px;
-	line-height:56px;
+.heading h4, .headline h4 {
+    background: url(../img/heading-bg.png) no-repeat bottom center;
+    padding-bottom: 20px;
+    font-size: 32px;
+    line-height: 46px;
 }
 
 
@@ -658,10 +657,13 @@ Heading
 
 @media (max-width: 767px) {
 	.home-intro h3{
-		font-size:62px;
-		line-height:86px;
+		font-size:48px;
+		line-height:56px;
 	}
-
+	.home-wrapper {
+    position: relative;
+    padding: 100px 0 50px 0;
+}
 	.work-it-contain,
 		.work-it-contain1{
 		width: 100%;

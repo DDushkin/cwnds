@@ -301,13 +301,13 @@
       <div class="container">
             <div class="social-network row text-center justify-content-around">
               <div class="col-md-4 ml-auto">
-                <a href="https://www.facebook.com/crosswinds.ukraine/" class="social-link "><i class="fa fa-facebook"></i><br><p style="font-size:14px; display:inline-block "> &nbsp; fb/crosswinds.ukraine</p></a>
+                <a href="https://www.facebook.com/crosswinds.ukraine/" class="social-link " target="_blank" rel="noopener"><i class="fa fa-facebook"></i><br><p style="font-size:14px; display:inline-block "> &nbsp; fb/crosswinds.ukraine</p></a>
               </div>
               <div class="col-md-4 ml-auto">
-                <a href="mailto:office@crosswinds.com"class="social-link "><i class="fa fa-envelope"></i><br><p style="font-size:14px; display:inline-block"> office@crosswinds.com</p></a>
+                <a href="mailto:office@crosswinds.com" class="social-link "  target="_blank" rel="noopener"><i class="fa fa-envelope"></i><br><p style="font-size:14px; display:inline-block"> office@crosswinds.com</p></a>
               </div>
               <div class="col-md-4 mr-auto">
-                <a href="tel:+380956735108" class="social-link "><i class="fa fa-phone"></i><br><p style="font-size:14px; line-height:1.3;display:inline-block"> <br>+38 095 673 5108  <br>+38 093 880 6072</p></a>
+                <a href="tel:+380956735108" class="social-link "  target="_blank" rel="noopener"><i class="fa fa-phone"></i><br><p style="font-size:14px; line-height:1.3;display:inline-block"> <br>+38 095 673 5108  <br>+38 093 880 6072</p></a>
 
               </div>
               <div class="col-sm-12">
