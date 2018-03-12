@@ -123,6 +123,7 @@ this.items = [
                   { url: '2018/winter/19', year: '2018', type: 'winter' },
                    { url: '2018/winter/20', year: '2018', type: 'winter' },
                     { url: '2018/winter/21', year: '2018', type: 'winter' },
+                      { url: '2018/winter/22', year: '2018', type: 'winter' },
 
 { url: '2017/kids/1', year: '2017', type: 'kids' },
  { url: '2017/kids/2', year: '2017', type: 'kids' },
@@ -144,7 +145,7 @@ this.items = [
                  { url: '2017/kids/18', year: '2017', type: 'kids' },
                   { url: '2017/kids/19', year: '2017', type: 'kids' },
                    { url: '2017/kids/20', year: '2017', type: 'kids' },
-                    { url: '2017/kids/21', year: '2017', type: 'kids' },
+
 
 { url: '2017/day/1', year: '2017', type: 'day' },
  { url: '2017/day/2', year: '2017', type: 'day' },
@@ -166,7 +167,7 @@ this.items = [
                  { url: '2017/day/18', year: '2017', type: 'day' },
                   { url: '2017/day/19', year: '2017', type: 'day' },
                    { url: '2017/day/20', year: '2017', type: 'day' },
-                    { url: '2017/day/21', year: '2017', type: 'day' },
+
 
 { url: '2017/away/1', year: '2017', type: 'away' },
  { url: '2017/away/2', year: '2017', type: 'away' },
@@ -188,7 +189,7 @@ this.items = [
                  { url: '2017/away/18', year: '2017', type: 'away' },
                   { url: '2017/away/19', year: '2017', type: 'away' },
                    { url: '2017/away/20', year: '2017', type: 'away' },
-                    
+
 { url: '2016/1', year: '2016', type: 'away' },
  { url: '2016/2', year: '2016', type: 'away' },
   { url: '2016/3', year: '2016', type: 'away' },
@@ -213,6 +214,7 @@ this.items = [
                      { url: '2016/22', year: '2016', type: 'away' },
                       { url: '2016/23', year: '2016', type: 'away' },
                         { url: '2016/24', year: '2016', type: 'away' },
+                        
 { url: '2015/1', year: '2015', type: 'away' },
  { url: '2015/2', year: '2015', type: 'away' },
   { url: '2015/3', year: '2015', type: 'away' },

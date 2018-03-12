@@ -107,7 +107,7 @@ figure.effect-milo .img {
 	backface-visibility: hidden;
 }
 .last figure.effect-milo .img {
-      transform: translate3d(-40px,0,0) scale(1.1);
+      transform: translate3d(0,0,0) scale(1.1);
 }
 figure.effect-milo:hover .img {
 	opacity: 0.5;

@@ -5,6 +5,25 @@
   switch ($_POST['cName']) {
     case 'kids':
 
+        // формируем запись в нашу таблицу google
+    $url = "https://docs.google.com/forms/u/4/d/e/1FAIpQLSebL6z6AHCQVVXDY3of142jrv38WuRn4V4ORqJh8GV_vV-p6g/formResponse";
+    $post_data = array (
+      'entry.1894285315' => $_POST['lName'],
+      'entry.16199806' => $_POST['fName'],
+      'entry.1386341542' => $_POST['email'],
+      'entry.1948631068' => $_POST['tel'],
+      'entry.536454165' => $_POST['dBirth'],
+      'entry.734407835' => $_POST['eLvl'],
+      'entry.1573085082' => $_POST['town'],
+      'entry.122419683' => $_POST['tSize'],
+      'entry.542436860' => $_POST['pType'],
+      'entry.1606430357' => $_POST['pfName'],
+      'entry.967574802' => $_POST['pTel'],
+     "draftResponse" => "[null,null,&quot;6364865047703498359&quot;]",
+     "pageHistory" => "0",
+     "fbzx" => "6364865047703498359"
+    );
+
     break;
 
     case 'winter':

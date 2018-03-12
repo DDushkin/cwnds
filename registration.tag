@@ -40,7 +40,7 @@
               <div class="col-md-4">
 
                 <div class="card card-01">
-                  <img class="card-img-top" src="img/gallery/card-1.jpeg" alt="Card image cap">
+                  <img class="card-img-top" src="img/gallery/2017/day/20.jpg" alt="Card image cap">
                   <div class="card-body text-center">
                     <span class="badge-box">
                       <i class="fa fa-check"></i>
@@ -58,7 +58,7 @@
               <div class="col-md-4">
 
                 <div class="card card-01">
-                  <img class="card-img-top" src="img/gallery/card-3.jpeg" alt="Card image cap">
+                  <img class="card-img-top" src="img/gallery/base-away.jpg" alt="Card image cap">
                   <div class="card-body text-center">
                     <span class="badge-box">
                       <i class="fa fa-check"></i>
@@ -76,7 +76,7 @@
               <div class="col-md-4">
 
                 <div class="card card-01">
-                  <img class="card-img-top" src="img/gallery/card-2.jpeg" alt="Card image cap">
+                  <img class="card-img-top" src="img/gallery/2017/kids/17.jpg" alt="Card image cap">
                   <div class="card-body text-center">
                     <span class="badge-box">
                       <i class="fa fa-times"></i>
@@ -85,15 +85,14 @@
                     <p class="card-text">З 7 по 14 років</p>
                     <p class="card-text">с. Бузовка</p>
                     <p class="card-text">16 - 23 червня</p>
-                    <p class="card-text">??? грн.</p>
-                    <p class="card-text font-weight-bold">Реєстрація скоро почнеться</p>
-                    <!--<a href="#" data-type="kids" class="btn btn-default text-uppercase" onclick="subscribe(this); validate();">Хочу поїхати!</a>-->
+                    <p class="card-text">2800 грн.</p>
+                    <a  data-type="kids" class="btn btn-default text-uppercase" onclick={ kids }> Хочу поїхати!</a>
                   </div>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="card card-01">
-                  <img class="card-img-top" src="img/gallery/card-3.jpeg" alt="Card image cap">
+                  <img class="card-img-top" src="img/gallery/2018/winter/17.jpg" alt="Card image cap">
                   <div class="card-body text-center">
                     <span class="badge-box">
                       <i class="fa fa-times"></i>
@@ -252,6 +251,10 @@
 
    <script>
 
+
+    this.on('mount', function(){
+      $("input[name='tel'], input[name='pTel']").mask("38 (099) 999-9999");
+    })
    this.cNameE = opts.cNameE
    this.cName = opts.cName
    day(e) {
@@ -265,6 +268,12 @@
        $('.list-of-cards').fadeOut();
        opts.cNameE = 'away'
        opts.cName = 'Подача заявки у виїздний табір'
+     }
+          kids(e) {
+       $('.form-wrapper').css('display', 'flex');
+       $('.list-of-cards').fadeOut();
+       opts.cNameE = 'kids'
+       opts.cName = 'Подача заявки на дитячий табір'
      }
    </script>
 </registration>
