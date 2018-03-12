@@ -46,7 +46,7 @@
                       <i class="fa fa-check"></i>
                     </span>
                     <h4 class="card-title font-weight-bold">Cross Winds - Day camp</h4>
-                    <p class="card-text">З 15 по 20 років</p>
+                    <p class="card-text">З 14 по 20 років</p>
                     <p class="card-text">м. Боярка</p>
                     <p class="card-text">2 - 7 липня</p>
                     <p class="card-text">900 грн.</p>
@@ -64,7 +64,7 @@
                       <i class="fa fa-check"></i>
                     </span>
                     <h4 class="card-title font-weight-bold">Cross Winds - Away camp</h4>
-                    <p class="card-text">З 15 по 20 років</p>
+                    <p class="card-text">З 14 по 20 років</p>
                     <p class="card-text">с. Скригалівка</p>
                     <p class="card-text">14 - 21 липня</p>
                     <p class="card-text">3000 грн.</p>
@@ -82,7 +82,7 @@
                       <i class="fa fa-times"></i>
                     </span>
                     <h4 class="card-title font-weight-bold">Enjoy - Kids camp</h4>
-                    <p class="card-text">З 7 по 14 років</p>
+                    <p class="card-text">З 8 по 13 років</p>
                     <p class="card-text">с. Бузовка</p>
                     <p class="card-text">16 - 23 червня</p>
                     <p class="card-text">2800 грн.</p>
